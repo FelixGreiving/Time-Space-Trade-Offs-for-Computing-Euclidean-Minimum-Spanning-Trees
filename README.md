@@ -41,7 +41,38 @@ Eine Kante wird als (x,y); (x',y'); komprimierteLänge: a; b gespeichert. Dabei 
 - Google Test Framework wird über CMake geladen
 
 ## Installation unter Ubuntu ab Version 22.4
-- ` $ sudo apt-get install build-essential cmake libcgal-dev libboost-all-dev libcgal-qt5-dev qtbase5-dev qt5-qmake python3`
+- ` $ sudo apt install build-essential cmake libcgal-dev libboost-all-dev libcgal-qt5-dev qtbase5-dev qt5-qmake python3`
 
 ## Installation unter Ubuntu bis Version 22.4
-- ` $ sudo apt-get install build-essential cmake libcgal-dev libboost-all-dev libcgal-qt5-dev qt5-default python3`
+- ` $ sudo apt install build-essential cmake libcgal-dev libboost-all-dev libcgal-qt5-dev qt5-default python3`
+
+## Ausführung
+
+Projekt bauen:
+``` bash
+./build.sh
+```
+
+Programm für zufällige Eingabepunktmenge ausführen:
+``` bash
+./build/bin/EMST
+```
+
+Programm testen:
+``` bash
+./build/bin/test_EMST_and_RNG
+```
+Visualisierung der berechneten Delaunay Triangulation:
+``` bash
+python3 ./src/graph_visualizer.py ./data/Aktuelle_Ergebnisse/Delaunay_Triangulation.txt red &
+```
+
+Visualisierung des berechneten Relativen Nachbarschaftsgraphen:
+``` bash
+python3 ./src/graph_visualizer.py ./data/Aktuelle_Ergebnisse/Relativer_Nachbarschaftsgraph.txt blue &
+```
+
+Visualisierung des berechneten Euklidischen Minimalen Spannbaums:
+``` bash
+python3 ./src/graph_visualizer.py ./data/Aktuelle_Ergebnisse/Euklidischer_Minimaler_Spannbaum.txt green &
+```
