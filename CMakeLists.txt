@@ -2,7 +2,7 @@ project( EMST )
 
 cmake_minimum_required(VERSION 3.14)
 
-find_package(CGAL REQUIRED OPTIONAL_COMPONENTS Qt5)
+find_package(CGAL REQUIRED COMPONENTS Core) 
 
 set(EXECUTABLE_OUTPUT_PATH "bin")
 
@@ -37,7 +37,7 @@ add_executable(EMST
 
 )
 target_include_directories(EMST PRIVATE include)
-target_link_libraries(EMST PUBLIC CGAL::CGAL_Basic_viewer) 
+target_link_libraries(EMST PUBLIC CGAL::CGAL CGAL::CGAL_Core ) 
 
 enable_testing()
 
@@ -61,7 +61,7 @@ target_include_directories(test_EMST_and_RNG PRIVATE include)
 target_link_libraries(
   test_EMST_and_RNG
   GTest::gtest_main
-  CGAL::CGAL_Basic_viewer
+  CGAL::CGAL CGAL::CGAL_Core 
 )
 
 include(GoogleTest)
