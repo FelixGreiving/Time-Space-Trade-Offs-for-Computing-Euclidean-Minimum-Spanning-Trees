@@ -1,0 +1,107 @@
+
+ S-Netz zu Lauf: 1
+
+
+ S-Netz zu Lauf: 2
+
+
+ S-Netz zu Lauf: 3
+
+
+ S-Netz zu Lauf: 4
+
+
+ S-Netz zu Lauf: 5
+
+
+ S-Netz zu Lauf: 6
+
+
+ S-Netz zu Lauf: 7
+
+
+ S-Netz zu Lauf: 8
+
+
+ S-Netz zu Lauf: 9
+
+
+ S-Netz zu Lauf: 10
+
+
+ S-Netz zu Lauf: 11
+
+
+ S-Netz zu Lauf: 12
+
+
+ S-Netz zu Lauf: 13
+
+
+ S-Netz zu Lauf: 14
+
+
+ S-Netz zu Lauf: 15
+
+
+ S-Netz zu Lauf: 16
+
+
+ S-Netz zu Lauf: 17
+
+
+ S-Netz zu Lauf: 18
+
+
+ S-Netz zu Lauf: 19
+
+
+ S-Netz zu Lauf: 20
+
+
+ S-Netz zu Lauf: 21
+
+
+ S-Netz zu Lauf: 22
+
+
+ S-Netz zu Lauf: 23
+
+
+ S-Netz zu Lauf: 24
+
+
+ S-Netz zu Lauf: 25
+
+
+ S-Netz zu Lauf: 26
+
+(44, 86); (61, 68)
+
+ S-Netz zu Lauf: 27
+
+(44, 86); (61, 68)
+
+ S-Netz zu Lauf: 28
+
+(44, 86); (61, 68)
+
+ S-Netz zu Lauf: 29
+
+(44, 86); (61, 68)
+
+ S-Netz zu Lauf: 30
+
+(44, 86); (61, 68)
+
+ S-Netz zu Lauf: 31
+
+(49, 13); (77, 33)
+
+ S-Netz zu Lauf: 32
+
+(33, 40); (61, 68)
+
+ S-Netz zu Lauf: 33
+
+(12, 44); (30, 82)

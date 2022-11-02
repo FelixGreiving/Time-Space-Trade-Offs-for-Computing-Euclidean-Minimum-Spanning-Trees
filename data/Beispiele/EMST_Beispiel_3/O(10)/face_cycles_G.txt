@@ -1,0 +1,421 @@
+
+ Face Cycles von G nach der Berechnung mit H
+
+ Face Cycles von G nach dem Einfügen der Batch Edges
+Face-Cycle 0 : 
+(24, 20); (33, 23) ; komprimierteLänge: 1 ; 0
+(33, 23); (46, 20) ; komprimierteLänge: 1 ; 0
+(46, 20); (33, 23) ; komprimierteLänge: 1 ; 0
+(33, 23); (24, 20) ; komprimierteLänge: 1 ; 0
+Face-Cycle 1 : 
+(70, 69); (72, 82) ; komprimierteLänge: 1 ; 0
+(72, 82); (70, 69) ; komprimierteLänge: 1 ; 0
+Face-Cycle 2 : 
+(74, 13); (83, 14) ; komprimierteLänge: 1 ; 0
+(83, 14); (82, 22) ; komprimierteLänge: 1 ; 0
+(82, 22); (81, 23) ; komprimierteLänge: 1 ; 0
+(81, 23); (82, 22) ; komprimierteLänge: 1 ; 0
+(82, 22); (83, 14) ; komprimierteLänge: 1 ; 0
+(83, 14); (74, 13) ; komprimierteLänge: 1 ; 0
+Face-Cycle 3 : 
+(90, 117); (91, 113) ; komprimierteLänge: 1 ; 0
+(91, 113); (90, 117) ; komprimierteLänge: 1 ; 0
+Face-Cycle 4 : 
+(109, 17); (115, 16) ; komprimierteLänge: 1 ; 0
+(115, 16); (109, 17) ; komprimierteLänge: 1 ; 0
+(109, 17); (110, 10) ; komprimierteLänge: 1 ; 0
+(110, 10); (113, 2) ; komprimierteLänge: 1 ; 0
+(113, 2); (110, 10) ; komprimierteLänge: 1 ; 0
+(110, 10); (109, 17) ; komprimierteLänge: 1 ; 0
+
+ Face Cycles von G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Face-Cycle 0 : 
+(24, 20); (33, 23) ; komprimierteLänge: 1 ; 0
+(33, 23); (46, 20) ; komprimierteLänge: 1 ; 0
+(46, 20); (33, 23) ; komprimierteLänge: 1 ; 0
+(33, 23); (24, 20) ; komprimierteLänge: 1 ; 0
+Face-Cycle 1 : 
+(70, 69); (72, 82) ; komprimierteLänge: 1 ; 0
+(72, 82); (70, 69) ; komprimierteLänge: 1 ; 0
+Face-Cycle 2 : 
+(74, 13); (83, 14) ; komprimierteLänge: 1 ; 0
+(83, 14); (82, 22) ; komprimierteLänge: 1 ; 0
+(82, 22); (81, 23) ; komprimierteLänge: 1 ; 0
+(81, 23); (82, 22) ; komprimierteLänge: 1 ; 0
+(82, 22); (83, 14) ; komprimierteLänge: 1 ; 0
+(83, 14); (74, 13) ; komprimierteLänge: 1 ; 0
+Face-Cycle 3 : 
+(90, 117); (91, 113) ; komprimierteLänge: 1 ; 0
+(91, 113); (90, 117) ; komprimierteLänge: 1 ; 0
+Face-Cycle 4 : 
+(109, 17); (115, 16) ; komprimierteLänge: 1 ; 0
+(115, 16); (109, 17) ; komprimierteLänge: 1 ; 0
+(109, 17); (110, 10) ; komprimierteLänge: 1 ; 0
+(110, 10); (113, 2) ; komprimierteLänge: 1 ; 0
+(113, 2); (110, 10) ; komprimierteLänge: 1 ; 0
+(110, 10); (109, 17) ; komprimierteLänge: 1 ; 0
+
+ Face Cycles von G nach der Berechnung mit H
+Face-Cycle 0 : 
+(24, 20); (33, 23) ; komprimierteLänge: 1 ; 0
+(33, 23); (46, 20) ; komprimierteLänge: 1 ; 0
+(46, 20); (24, 20) ; komprimierteLänge: 2 ; 0
+Face-Cycle 1 : 
+(70, 69); (72, 82) ; komprimierteLänge: 1 ; 0
+(72, 82); (70, 69) ; komprimierteLänge: 1 ; 0
+Face-Cycle 2 : 
+(74, 13); (83, 14) ; komprimierteLänge: 1 ; 0
+(83, 14); (74, 13) ; komprimierteLänge: 5 ; 0
+Face-Cycle 3 : 
+(109, 17); (115, 16) ; komprimierteLänge: 1 ; 0
+(115, 16); (109, 17) ; komprimierteLänge: 5 ; 0
+
+ Face Cycles von G nach dem Einfügen der Batch Edges
+Face-Cycle 0 : 
+(0, 80); (8, 69) ; komprimierteLänge: 1 ; 0
+(8, 69); (11, 53) ; komprimierteLänge: 1 ; 0
+(11, 53); (28, 43) ; komprimierteLänge: 1 ; 0
+(28, 43); (34, 63) ; komprimierteLänge: 1 ; 0
+(34, 63); (43, 75) ; komprimierteLänge: 1 ; 0
+(43, 75); (34, 63) ; komprimierteLänge: 1 ; 0
+(34, 63); (28, 43) ; komprimierteLänge: 1 ; 0
+(28, 43); (33, 23) ; komprimierteLänge: 1 ; 0
+(33, 23); (46, 20) ; komprimierteLänge: 1 ; 0
+(46, 20); (24, 20) ; komprimierteLänge: 2 ; 0
+(24, 20); (33, 23) ; komprimierteLänge: 1 ; 0
+(33, 23); (28, 43) ; komprimierteLänge: 1 ; 0
+(28, 43); (11, 53) ; komprimierteLänge: 1 ; 0
+(11, 53); (8, 69) ; komprimierteLänge: 1 ; 0
+(8, 69); (0, 80) ; komprimierteLänge: 1 ; 0
+Face-Cycle 1 : 
+(19, 90); (38, 96) ; komprimierteLänge: 1 ; 0
+(38, 96); (19, 90) ; komprimierteLänge: 1 ; 0
+Face-Cycle 2 : 
+(65, 55); (70, 69) ; komprimierteLänge: 1 ; 0
+(70, 69); (72, 82) ; komprimierteLänge: 1 ; 0
+(72, 82); (89, 80) ; komprimierteLänge: 1 ; 0
+(89, 80); (72, 82) ; komprimierteLänge: 1 ; 0
+(72, 82); (70, 69) ; komprimierteLänge: 1 ; 0
+(70, 69); (65, 55) ; komprimierteLänge: 1 ; 0
+Face-Cycle 3 : 
+(74, 13); (83, 14) ; komprimierteLänge: 1 ; 0
+(83, 14); (74, 13) ; komprimierteLänge: 5 ; 0
+Face-Cycle 4 : 
+(109, 17); (115, 16) ; komprimierteLänge: 1 ; 0
+(115, 16); (109, 17) ; komprimierteLänge: 5 ; 0
+Face-Cycle 5 : 
+(118, 97); (119, 113) ; komprimierteLänge: 1 ; 0
+(119, 113); (118, 97) ; komprimierteLänge: 1 ; 0
+
+ Face Cycles von G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Face-Cycle 0 : 
+(0, 80); (8, 69) ; komprimierteLänge: 1 ; 0
+(8, 69); (11, 53) ; komprimierteLänge: 1 ; 0
+(11, 53); (28, 43) ; komprimierteLänge: 1 ; 0
+(28, 43); (34, 63) ; komprimierteLänge: 1 ; 0
+(34, 63); (43, 75) ; komprimierteLänge: 1 ; 0
+(43, 75); (34, 63) ; komprimierteLänge: 1 ; 0
+(34, 63); (28, 43) ; komprimierteLänge: 1 ; 0
+(28, 43); (33, 23) ; komprimierteLänge: 1 ; 0
+(33, 23); (46, 20) ; komprimierteLänge: 1 ; 0
+(46, 20); (24, 20) ; komprimierteLänge: 2 ; 0
+(24, 20); (33, 23) ; komprimierteLänge: 1 ; 0
+(33, 23); (28, 43) ; komprimierteLänge: 1 ; 0
+(28, 43); (11, 53) ; komprimierteLänge: 1 ; 0
+(11, 53); (8, 69) ; komprimierteLänge: 1 ; 0
+(8, 69); (0, 80) ; komprimierteLänge: 1 ; 0
+Face-Cycle 1 : 
+(19, 90); (38, 96) ; komprimierteLänge: 1 ; 0
+(38, 96); (19, 90) ; komprimierteLänge: 1 ; 0
+Face-Cycle 2 : 
+(65, 55); (70, 69) ; komprimierteLänge: 1 ; 0
+(70, 69); (72, 82) ; komprimierteLänge: 1 ; 0
+(72, 82); (89, 80) ; komprimierteLänge: 1 ; 0
+(89, 80); (72, 82) ; komprimierteLänge: 1 ; 0
+(72, 82); (70, 69) ; komprimierteLänge: 1 ; 0
+(70, 69); (65, 55) ; komprimierteLänge: 1 ; 0
+Face-Cycle 3 : 
+(74, 13); (83, 14) ; komprimierteLänge: 1 ; 0
+(83, 14); (74, 13) ; komprimierteLänge: 5 ; 0
+Face-Cycle 4 : 
+(109, 17); (115, 16) ; komprimierteLänge: 1 ; 0
+(115, 16); (109, 17) ; komprimierteLänge: 5 ; 0
+Face-Cycle 5 : 
+(118, 97); (119, 113) ; komprimierteLänge: 1 ; 0
+(119, 113); (118, 97) ; komprimierteLänge: 1 ; 0
+
+ Face Cycles von G nach der Berechnung mit H
+Face-Cycle 0 : 
+(0, 80); (8, 69) ; komprimierteLänge: 1 ; 0
+(8, 69); (34, 63) ; komprimierteLänge: 3 ; 0
+(34, 63); (43, 75) ; komprimierteLänge: 1 ; 0
+(43, 75); (34, 63) ; komprimierteLänge: 1 ; 0
+(34, 63); (33, 23) ; komprimierteLänge: 2 ; 0
+(33, 23); (46, 20) ; komprimierteLänge: 1 ; 0
+(46, 20); (33, 23) ; komprimierteLänge: 1 ; 0
+(33, 23); (24, 20) ; komprimierteLänge: 1 ; 0
+(24, 20); (33, 23) ; komprimierteLänge: 1 ; 0
+(33, 23); (28, 43) ; komprimierteLänge: 1 ; 0
+(28, 43); (11, 53) ; komprimierteLänge: 1 ; 0
+(11, 53); (8, 69) ; komprimierteLänge: 1 ; 0
+(8, 69); (0, 80) ; komprimierteLänge: 1 ; 0
+Face-Cycle 1 : 
+(19, 90); (38, 96) ; komprimierteLänge: 1 ; 0
+(38, 96); (19, 90) ; komprimierteLänge: 1 ; 0
+Face-Cycle 2 : 
+(65, 55); (70, 69) ; komprimierteLänge: 1 ; 0
+(70, 69); (72, 82) ; komprimierteLänge: 1 ; 0
+(72, 82); (65, 55) ; komprimierteLänge: 4 ; 0
+Face-Cycle 3 : 
+(74, 13); (83, 14) ; komprimierteLänge: 1 ; 0
+(83, 14); (83, 14) ; komprimierteLänge: 4 ; 0
+(83, 14); (74, 13) ; komprimierteLänge: 1 ; 0
+Face-Cycle 4 : 
+(90, 117); (91, 113) ; komprimierteLänge: 1 ; 0
+(91, 113); (90, 117) ; komprimierteLänge: 1 ; 0
+Face-Cycle 5 : 
+(109, 17); (115, 16) ; komprimierteLänge: 1 ; 0
+(115, 16); (109, 17) ; komprimierteLänge: 5 ; 0
+Face-Cycle 6 : 
+(118, 97); (119, 113) ; komprimierteLänge: 1 ; 0
+(119, 113); (118, 97) ; komprimierteLänge: 1 ; 0
+
+ Face Cycles von G nach dem Einfügen der Batch Edges
+Face-Cycle 0 : 
+(0, 80); (8, 69) ; komprimierteLänge: 1 ; 0
+(8, 69); (34, 63) ; komprimierteLänge: 3 ; 0
+(34, 63); (43, 75) ; komprimierteLänge: 1 ; 0
+(43, 75); (38, 96) ; komprimierteLänge: 1 ; 0
+(38, 96); (19, 90) ; komprimierteLänge: 1 ; 0
+(19, 90); (0, 80) ; komprimierteLänge: 1 ; 0
+Face-Cycle 1 : 
+(0, 80); (19, 90) ; komprimierteLänge: 1 ; 0
+(19, 90); (38, 96) ; komprimierteLänge: 1 ; 0
+(38, 96); (46, 119) ; komprimierteLänge: 1 ; 0
+(46, 119); (38, 96) ; komprimierteLänge: 1 ; 0
+(38, 96); (43, 75) ; komprimierteLänge: 1 ; 0
+(43, 75); (70, 69) ; komprimierteLänge: 1 ; 0
+(70, 69); (72, 82) ; komprimierteLänge: 1 ; 0
+(72, 82); (65, 55) ; komprimierteLänge: 4 ; 0
+(65, 55); (70, 69) ; komprimierteLänge: 1 ; 0
+(70, 69); (43, 75) ; komprimierteLänge: 1 ; 0
+(43, 75); (34, 63) ; komprimierteLänge: 1 ; 0
+(34, 63); (33, 23) ; komprimierteLänge: 2 ; 0
+(33, 23); (46, 20) ; komprimierteLänge: 1 ; 0
+(46, 20); (74, 13) ; komprimierteLänge: 1 ; 0
+(74, 13); (83, 14) ; komprimierteLänge: 1 ; 0
+(83, 14); (83, 14) ; komprimierteLänge: 4 ; 0
+(83, 14); (109, 17) ; komprimierteLänge: 1 ; 0
+(109, 17); (115, 16) ; komprimierteLänge: 1 ; 0
+(115, 16); (109, 17) ; komprimierteLänge: 5 ; 0
+(109, 17); (83, 14) ; komprimierteLänge: 1 ; 0
+(83, 14); (74, 13) ; komprimierteLänge: 1 ; 0
+(74, 13); (46, 20) ; komprimierteLänge: 1 ; 0
+(46, 20); (33, 23) ; komprimierteLänge: 1 ; 0
+(33, 23); (24, 20) ; komprimierteLänge: 1 ; 0
+(24, 20); (10, 1) ; komprimierteLänge: 1 ; 0
+(10, 1); (24, 20) ; komprimierteLänge: 1 ; 0
+(24, 20); (2, 28) ; komprimierteLänge: 1 ; 0
+(2, 28); (11, 53) ; komprimierteLänge: 1 ; 0
+(11, 53); (8, 69) ; komprimierteLänge: 1 ; 0
+(8, 69); (0, 80) ; komprimierteLänge: 1 ; 0
+Face-Cycle 2 : 
+(2, 28); (24, 20) ; komprimierteLänge: 1 ; 0
+(24, 20); (33, 23) ; komprimierteLänge: 1 ; 0
+(33, 23); (28, 43) ; komprimierteLänge: 1 ; 0
+(28, 43); (11, 53) ; komprimierteLänge: 1 ; 0
+(11, 53); (2, 28) ; komprimierteLänge: 1 ; 0
+Face-Cycle 3 : 
+(90, 117); (91, 113) ; komprimierteLänge: 1 ; 0
+(91, 113); (119, 113) ; komprimierteLänge: 1 ; 0
+(119, 113); (118, 97) ; komprimierteLänge: 1 ; 0
+(118, 97); (119, 113) ; komprimierteLänge: 1 ; 0
+(119, 113); (91, 113) ; komprimierteLänge: 1 ; 0
+(91, 113); (90, 117) ; komprimierteLänge: 1 ; 0
+
+ Face Cycles von G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Face-Cycle 0 : 
+(0, 80); (8, 69) ; komprimierteLänge: 1 ; 0
+(8, 69); (34, 63) ; komprimierteLänge: 3 ; 0
+(34, 63); (43, 75) ; komprimierteLänge: 1 ; 0
+(43, 75); (38, 96) ; komprimierteLänge: 1 ; 0
+(38, 96); (19, 90) ; komprimierteLänge: 1 ; 0
+(19, 90); (0, 80) ; komprimierteLänge: 1 ; 0
+Face-Cycle 1 : 
+(0, 80); (19, 90) ; komprimierteLänge: 1 ; 0
+(19, 90); (38, 96) ; komprimierteLänge: 1 ; 0
+(38, 96); (46, 119) ; komprimierteLänge: 1 ; 0
+(46, 119); (38, 96) ; komprimierteLänge: 1 ; 0
+(38, 96); (43, 75) ; komprimierteLänge: 1 ; 0
+(43, 75); (70, 69) ; komprimierteLänge: 1 ; 0
+(70, 69); (72, 82) ; komprimierteLänge: 1 ; 0
+(72, 82); (65, 55) ; komprimierteLänge: 4 ; 0
+(65, 55); (70, 69) ; komprimierteLänge: 1 ; 0
+(70, 69); (43, 75) ; komprimierteLänge: 1 ; 0
+(43, 75); (34, 63) ; komprimierteLänge: 1 ; 0
+(34, 63); (33, 23) ; komprimierteLänge: 2 ; 0
+(33, 23); (46, 20) ; komprimierteLänge: 1 ; 0
+(46, 20); (74, 13) ; komprimierteLänge: 1 ; 0
+(74, 13); (83, 14) ; komprimierteLänge: 1 ; 0
+(83, 14); (83, 14) ; komprimierteLänge: 4 ; 0
+(83, 14); (109, 17) ; komprimierteLänge: 1 ; 0
+(109, 17); (115, 16) ; komprimierteLänge: 1 ; 0
+(115, 16); (109, 17) ; komprimierteLänge: 5 ; 0
+(109, 17); (83, 14) ; komprimierteLänge: 1 ; 0
+(83, 14); (74, 13) ; komprimierteLänge: 1 ; 0
+(74, 13); (46, 20) ; komprimierteLänge: 1 ; 0
+(46, 20); (33, 23) ; komprimierteLänge: 1 ; 0
+(33, 23); (24, 20) ; komprimierteLänge: 1 ; 0
+(24, 20); (10, 1) ; komprimierteLänge: 1 ; 0
+(10, 1); (24, 20) ; komprimierteLänge: 1 ; 0
+(24, 20); (2, 28) ; komprimierteLänge: 1 ; 0
+(2, 28); (11, 53) ; komprimierteLänge: 1 ; 0
+(11, 53); (8, 69) ; komprimierteLänge: 1 ; 0
+(8, 69); (0, 80) ; komprimierteLänge: 1 ; 0
+Face-Cycle 2 : 
+(2, 28); (24, 20) ; komprimierteLänge: 1 ; 0
+(24, 20); (33, 23) ; komprimierteLänge: 1 ; 0
+(33, 23); (28, 43) ; komprimierteLänge: 1 ; 0
+(28, 43); (11, 53) ; komprimierteLänge: 1 ; 0
+(11, 53); (2, 28) ; komprimierteLänge: 1 ; 0
+Face-Cycle 3 : 
+(90, 117); (91, 113) ; komprimierteLänge: 1 ; 0
+(91, 113); (119, 113) ; komprimierteLänge: 1 ; 0
+(119, 113); (118, 97) ; komprimierteLänge: 1 ; 0
+(118, 97); (119, 113) ; komprimierteLänge: 1 ; 0
+(119, 113); (91, 113) ; komprimierteLänge: 1 ; 0
+(91, 113); (90, 117) ; komprimierteLänge: 1 ; 0
+
+ Face Cycles von G nach der Berechnung mit H
+Face-Cycle 0 : 
+(0, 80); (8, 69) ; komprimierteLänge: 1 ; 0
+(8, 69); (34, 63) ; komprimierteLänge: 3 ; 0
+(34, 63); (43, 75) ; komprimierteLänge: 1 ; 0
+(43, 75); (0, 80) ; komprimierteLänge: 3 ; 0
+Face-Cycle 1 : 
+(0, 80); (19, 90) ; komprimierteLänge: 1 ; 0
+(19, 90); (46, 119) ; komprimierteLänge: 2 ; 0
+(46, 119); (38, 96) ; komprimierteLänge: 1 ; 0
+(38, 96); (43, 75) ; komprimierteLänge: 1 ; 0
+(43, 75); (70, 69) ; komprimierteLänge: 1 ; 0
+(70, 69); (89, 80) ; komprimierteLänge: 2 ; 0
+(89, 80); (72, 82) ; komprimierteLänge: 1 ; 0
+(72, 82); (70, 69) ; komprimierteLänge: 1 ; 0
+(70, 69); (65, 55) ; komprimierteLänge: 1 ; 0
+(65, 55); (70, 69) ; komprimierteLänge: 1 ; 0
+(70, 69); (43, 75) ; komprimierteLänge: 1 ; 0
+(43, 75); (34, 63) ; komprimierteLänge: 1 ; 0
+(34, 63); (46, 20) ; komprimierteLänge: 3 ; 0
+(46, 20); (74, 13) ; komprimierteLänge: 1 ; 0
+(74, 13); (81, 23) ; komprimierteLänge: 3 ; 0
+(81, 23); (82, 22) ; komprimierteLänge: 1 ; 0
+(82, 22); (115, 16) ; komprimierteLänge: 3 ; 0
+(115, 16); (109, 17) ; komprimierteLänge: 1 ; 0
+(109, 17); (110, 10) ; komprimierteLänge: 3 ; 0
+(110, 10); (109, 17) ; komprimierteLänge: 1 ; 0
+(109, 17); (46, 20) ; komprimierteLänge: 3 ; 0
+(46, 20); (33, 23) ; komprimierteLänge: 1 ; 0
+(33, 23); (24, 20) ; komprimierteLänge: 3 ; 0
+(24, 20); (2, 28) ; komprimierteLänge: 1 ; 0
+(2, 28); (0, 80) ; komprimierteLänge: 3 ; 0
+Face-Cycle 2 : 
+(2, 28); (24, 20) ; komprimierteLänge: 1 ; 0
+(24, 20); (2, 28) ; komprimierteLänge: 4 ; 0
+Face-Cycle 3 : 
+(90, 117); (91, 113) ; komprimierteLänge: 1 ; 0
+(91, 113); (91, 113) ; komprimierteLänge: 4 ; 0
+(91, 113); (90, 117) ; komprimierteLänge: 1 ; 0
+
+ Face Cycles von G nach dem Einfügen der Batch Edges
+Face-Cycle 0 : 
+(0, 80); (8, 69) ; komprimierteLänge: 1 ; 0
+(8, 69); (34, 63) ; komprimierteLänge: 3 ; 0
+(34, 63); (43, 75) ; komprimierteLänge: 1 ; 0
+(43, 75); (0, 80) ; komprimierteLänge: 3 ; 0
+Face-Cycle 1 : 
+(0, 80); (19, 90) ; komprimierteLänge: 1 ; 0
+(19, 90); (46, 119) ; komprimierteLänge: 2 ; 0
+(46, 119); (90, 117) ; komprimierteLänge: 1 ; 0
+(90, 117); (91, 113) ; komprimierteLänge: 1 ; 0
+(91, 113); (91, 113) ; komprimierteLänge: 4 ; 0
+(91, 113); (89, 80) ; komprimierteLänge: 1 ; 0
+(89, 80); (72, 82) ; komprimierteLänge: 1 ; 0
+(72, 82); (70, 69) ; komprimierteLänge: 1 ; 0
+(70, 69); (65, 55) ; komprimierteLänge: 1 ; 0
+(65, 55); (81, 23) ; komprimierteLänge: 1 ; 0
+(81, 23); (82, 22) ; komprimierteLänge: 1 ; 0
+(82, 22); (115, 16) ; komprimierteLänge: 3 ; 0
+(115, 16); (109, 17) ; komprimierteLänge: 1 ; 0
+(109, 17); (110, 10) ; komprimierteLänge: 3 ; 0
+(110, 10); (109, 17) ; komprimierteLänge: 1 ; 0
+(109, 17); (46, 20) ; komprimierteLänge: 3 ; 0
+(46, 20); (33, 23) ; komprimierteLänge: 1 ; 0
+(33, 23); (24, 20) ; komprimierteLänge: 3 ; 0
+(24, 20); (2, 28) ; komprimierteLänge: 1 ; 0
+(2, 28); (0, 80) ; komprimierteLänge: 3 ; 0
+Face-Cycle 2 : 
+(2, 28); (24, 20) ; komprimierteLänge: 1 ; 0
+(24, 20); (2, 28) ; komprimierteLänge: 4 ; 0
+Face-Cycle 3 : 
+(34, 63); (46, 20) ; komprimierteLänge: 3 ; 0
+(46, 20); (74, 13) ; komprimierteLänge: 1 ; 0
+(74, 13); (81, 23) ; komprimierteLänge: 3 ; 0
+(81, 23); (65, 55) ; komprimierteLänge: 1 ; 0
+(65, 55); (70, 69) ; komprimierteLänge: 1 ; 0
+(70, 69); (43, 75) ; komprimierteLänge: 1 ; 0
+(43, 75); (34, 63) ; komprimierteLänge: 1 ; 0
+Face-Cycle 4 : 
+(38, 96); (43, 75) ; komprimierteLänge: 1 ; 0
+(43, 75); (70, 69) ; komprimierteLänge: 1 ; 0
+(70, 69); (89, 80) ; komprimierteLänge: 2 ; 0
+(89, 80); (91, 113) ; komprimierteLänge: 1 ; 0
+(91, 113); (90, 117) ; komprimierteLänge: 1 ; 0
+(90, 117); (46, 119) ; komprimierteLänge: 1 ; 0
+(46, 119); (38, 96) ; komprimierteLänge: 1 ; 0
+
+ Face Cycles von G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Face-Cycle 0 : 
+(0, 80); (8, 69) ; komprimierteLänge: 1 ; 0
+(8, 69); (34, 63) ; komprimierteLänge: 3 ; 0
+(34, 63); (43, 75) ; komprimierteLänge: 1 ; 0
+(43, 75); (0, 80) ; komprimierteLänge: 3 ; 0
+Face-Cycle 1 : 
+(0, 80); (19, 90) ; komprimierteLänge: 1 ; 0
+(19, 90); (46, 119) ; komprimierteLänge: 2 ; 0
+(46, 119); (90, 117) ; komprimierteLänge: 1 ; 0
+(90, 117); (91, 113) ; komprimierteLänge: 1 ; 0
+(91, 113); (91, 113) ; komprimierteLänge: 4 ; 0
+(91, 113); (89, 80) ; komprimierteLänge: 1 ; 0
+(89, 80); (72, 82) ; komprimierteLänge: 1 ; 0
+(72, 82); (70, 69) ; komprimierteLänge: 1 ; 0
+(70, 69); (65, 55) ; komprimierteLänge: 1 ; 0
+(65, 55); (81, 23) ; komprimierteLänge: 1 ; 0
+(81, 23); (82, 22) ; komprimierteLänge: 1 ; 0
+(82, 22); (115, 16) ; komprimierteLänge: 3 ; 0
+(115, 16); (109, 17) ; komprimierteLänge: 1 ; 0
+(109, 17); (110, 10) ; komprimierteLänge: 3 ; 0
+(110, 10); (109, 17) ; komprimierteLänge: 1 ; 0
+(109, 17); (46, 20) ; komprimierteLänge: 3 ; 0
+(46, 20); (33, 23) ; komprimierteLänge: 1 ; 0
+(33, 23); (24, 20) ; komprimierteLänge: 3 ; 0
+(24, 20); (2, 28) ; komprimierteLänge: 1 ; 0
+(2, 28); (0, 80) ; komprimierteLänge: 3 ; 0
+Face-Cycle 2 : 
+(2, 28); (24, 20) ; komprimierteLänge: 1 ; 0
+(24, 20); (2, 28) ; komprimierteLänge: 4 ; 0
+Face-Cycle 3 : 
+(34, 63); (46, 20) ; komprimierteLänge: 3 ; 0
+(46, 20); (74, 13) ; komprimierteLänge: 1 ; 0
+(74, 13); (81, 23) ; komprimierteLänge: 3 ; 0
+(81, 23); (65, 55) ; komprimierteLänge: 1 ; 0
+(65, 55); (70, 69) ; komprimierteLänge: 1 ; 0
+(70, 69); (43, 75) ; komprimierteLänge: 1 ; 0
+(43, 75); (34, 63) ; komprimierteLänge: 1 ; 0
+Face-Cycle 4 : 
+(38, 96); (43, 75) ; komprimierteLänge: 1 ; 0
+(43, 75); (70, 69) ; komprimierteLänge: 1 ; 0
+(70, 69); (89, 80) ; komprimierteLänge: 2 ; 0
+(89, 80); (91, 113) ; komprimierteLänge: 1 ; 0
+(91, 113); (90, 117) ; komprimierteLänge: 1 ; 0
+(90, 117); (46, 119) ; komprimierteLänge: 1 ; 0
+(46, 119); (38, 96) ; komprimierteLänge: 1 ; 0

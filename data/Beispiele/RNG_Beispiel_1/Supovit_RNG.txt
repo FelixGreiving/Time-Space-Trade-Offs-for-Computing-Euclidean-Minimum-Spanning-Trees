@@ -1,0 +1,61 @@
+Punkt: (80, 4) und assoziierter Punkt: (80, 4)
+
+Punkt: (79, 33) und assoziierter Punkt: (79, 33)
+
+(79, 33); (80, 4)
+Punkt: (70, 64) und assoziierter Punkt: (70, 64)
+
+Punkt: (64, 62) und assoziierter Punkt: (64, 62)
+
+(64, 62); (70, 64)
+Punkt: (64, 56) und assoziierter Punkt: (64, 56)
+
+(64, 56); (64, 62)
+Punkt: (60, 46) und assoziierter Punkt: (60, 46)
+
+(60, 46); (79, 33)
+(60, 46); (64, 56)
+Punkt: (48, 23) und assoziierter Punkt: (48, 23)
+
+Punkt: (47, 37) und assoziierter Punkt: (47, 37)
+
+(47, 37); (60, 46)
+Punkt: (46, 33) und assoziierter Punkt: (46, 33)
+
+(46, 33); (47, 37)
+(46, 33); (48, 23)
+Punkt: (40, 65) und assoziierter Punkt: (40, 65)
+
+(40, 65); (64, 62)
+Punkt: (39, 19) und assoziierter Punkt: (39, 19)
+
+(39, 19); (48, 23)
+Punkt: (39, 4) und assoziierter Punkt: (39, 4)
+
+(39, 4); (39, 19)
+Punkt: (32, 49) und assoziierter Punkt: (32, 49)
+
+(32, 49); (47, 37)
+(32, 49); (40, 65)
+Punkt: (30, 49) und assoziierter Punkt: (30, 49)
+
+(30, 49); (32, 49)
+Punkt: (28, 22) und assoziierter Punkt: (28, 22)
+
+(28, 22); (39, 19)
+Punkt: (22, 27) und assoziierter Punkt: (22, 27)
+
+(22, 27); (28, 22)
+(22, 27); (30, 49)
+Punkt: (17, 1) und assoziierter Punkt: (17, 1)
+
+(17, 1); (39, 4)
+Punkt: (13, 52) und assoziierter Punkt: (13, 52)
+
+(13, 52); (30, 49)
+Punkt: (2, 53) und assoziierter Punkt: (2, 53)
+
+(2, 53); (13, 52)
+Punkt: (1, 10) und assoziierter Punkt: (1, 10)
+
+(1, 10); (17, 1)

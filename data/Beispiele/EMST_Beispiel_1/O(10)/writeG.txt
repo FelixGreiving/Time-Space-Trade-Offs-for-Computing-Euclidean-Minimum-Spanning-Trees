@@ -1,0 +1,1121 @@
+
+ H-Edges:
+Läufe erfolgreich beendet. Das heißt nicht, dass die Ergebnisse stimmen!
+Punkt: (2, 45)
+Punkt: (4, 33)
+Punkt: (5, 110)
+Punkt: (10, 117)
+Punkt: (12, 44)
+Punkt: (28, 3)
+Punkt: (29, 0)
+Punkt: (33, 40)
+Punkt: (38, 13)
+Punkt: (42, 32)
+Punkt: (49, 13)
+Punkt: (75, 86)
+Punkt: (79, 76)
+Punkt: (80, 65)
+Punkt: (87, 78)
+Punkt: (96, 115)
+Punkt: (98, 104)
+
+ G nach der Berechnung mit H
+Punkt: (2, 45)
+Punkt: (4, 33)
+Punkt: (5, 110)
+Punkt: (10, 117)
+Punkt: (12, 44)
+Punkt: (28, 3)
+Punkt: (29, 0)
+Punkt: (33, 40)
+Punkt: (38, 13)
+Punkt: (42, 32)
+Punkt: (49, 13)
+Punkt: (75, 86)
+Punkt: (79, 76)
+Punkt: (80, 65)
+Punkt: (87, 78)
+Punkt: (96, 115)
+Punkt: (98, 104)
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (2, 45)
+(2, 45); (12, 44) ; komprimierteLänge: 1
+(2, 45); (4, 33) ; komprimierteLänge: 1
+Punkt: (4, 33)
+(4, 33); (2, 45) ; komprimierteLänge: 1
+Punkt: (5, 110)
+(5, 110); (10, 117) ; komprimierteLänge: 1
+Punkt: (10, 117)
+(10, 117); (5, 110) ; komprimierteLänge: 1
+Punkt: (12, 44)
+(12, 44); (2, 45) ; komprimierteLänge: 1
+Punkt: (28, 3)
+(28, 3); (29, 0) ; komprimierteLänge: 1
+Punkt: (29, 0)
+(29, 0); (28, 3) ; komprimierteLänge: 1
+Punkt: (33, 40)
+(33, 40); (42, 32) ; komprimierteLänge: 1
+Punkt: (38, 13)
+(38, 13); (49, 13) ; komprimierteLänge: 1
+Punkt: (42, 32)
+(42, 32); (33, 40) ; komprimierteLänge: 1
+Punkt: (49, 13)
+(49, 13); (38, 13) ; komprimierteLänge: 1
+Punkt: (75, 86)
+(75, 86); (79, 76) ; komprimierteLänge: 1
+Punkt: (79, 76)
+(79, 76); (87, 78) ; komprimierteLänge: 1
+(79, 76); (75, 86) ; komprimierteLänge: 1
+(79, 76); (80, 65) ; komprimierteLänge: 1
+Punkt: (80, 65)
+(80, 65); (79, 76) ; komprimierteLänge: 1
+Punkt: (87, 78)
+(87, 78); (79, 76) ; komprimierteLänge: 1
+Punkt: (96, 115)
+(96, 115); (98, 104) ; komprimierteLänge: 1
+Punkt: (98, 104)
+(98, 104); (96, 115) ; komprimierteLänge: 1
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (2, 45)
+(2, 45); (12, 44) ; komprimierteLänge: 1
+(2, 45); (4, 33) ; komprimierteLänge: 1
+Punkt: (4, 33)
+(4, 33); (2, 45) ; komprimierteLänge: 1
+Punkt: (5, 110)
+(5, 110); (10, 117) ; komprimierteLänge: 1
+Punkt: (10, 117)
+(10, 117); (5, 110) ; komprimierteLänge: 1
+Punkt: (12, 44)
+(12, 44); (2, 45) ; komprimierteLänge: 1
+Punkt: (28, 3)
+(28, 3); (29, 0) ; komprimierteLänge: 1
+Punkt: (29, 0)
+(29, 0); (28, 3) ; komprimierteLänge: 1
+Punkt: (33, 40)
+(33, 40); (42, 32) ; komprimierteLänge: 1
+Punkt: (38, 13)
+(38, 13); (49, 13) ; komprimierteLänge: 1
+Punkt: (42, 32)
+(42, 32); (33, 40) ; komprimierteLänge: 1
+Punkt: (49, 13)
+(49, 13); (38, 13) ; komprimierteLänge: 1
+Punkt: (75, 86)
+(75, 86); (79, 76) ; komprimierteLänge: 1
+Punkt: (79, 76)
+(79, 76); (87, 78) ; komprimierteLänge: 1
+(79, 76); (75, 86) ; komprimierteLänge: 1
+(79, 76); (80, 65) ; komprimierteLänge: 1
+Punkt: (80, 65)
+(80, 65); (79, 76) ; komprimierteLänge: 1
+Punkt: (87, 78)
+(87, 78); (79, 76) ; komprimierteLänge: 1
+Punkt: (96, 115)
+(96, 115); (98, 104) ; komprimierteLänge: 1
+Punkt: (98, 104)
+(98, 104); (96, 115) ; komprimierteLänge: 1
+
+ H-Edges:
+(2, 45); (12, 44)
+(75, 86); (79, 76)
+(38, 13); (49, 13)
+(28, 3); (29, 0)
+(80, 65); (79, 76)
+(80, 65); (79, 76)
+(42, 32); (33, 40)
+(38, 13); (49, 13)
+(98, 104); (96, 115)
+Läufe erfolgreich beendet. Das heißt nicht, dass die Ergebnisse stimmen!
+Punkt: (2, 45)
+(2, 45); (12, 44) Länge: 1
+nächste Kante: (12, 44); (2, 45)
+nächste Kante: (12, 44); (2, 45)
+
+Punkt: (12, 44)
+(12, 44); (2, 45) Länge: 3
+nächste Kante: (2, 45); (12, 44)
+nächste Kante: (2, 45); (12, 44)
+
+Punkt: (28, 3)
+(28, 3); (29, 0) Länge: 1
+nächste Kante: (29, 0); (28, 3)
+nächste Kante: (29, 0); (28, 3)
+
+Punkt: (28, 102)
+Punkt: (29, 0)
+(29, 0); (28, 3) Länge: 1
+nächste Kante: (28, 3); (29, 0)
+nächste Kante: (28, 3); (29, 0)
+
+Punkt: (30, 82)
+Punkt: (33, 40)
+(33, 40); (42, 32) Länge: 1
+nächste Kante: (42, 32); (33, 40)
+nächste Kante: (42, 32); (33, 40)
+
+Punkt: (38, 13)
+(38, 13); (49, 13) Länge: 1
+nächste Kante: (49, 13); (38, 13)
+nächste Kante: (49, 13); (38, 13)
+
+Punkt: (42, 32)
+(42, 32); (33, 40) Länge: 1
+nächste Kante: (33, 40); (42, 32)
+nächste Kante: (33, 40); (42, 32)
+
+Punkt: (44, 86)
+Punkt: (49, 13)
+(49, 13); (38, 13) Länge: 1
+nächste Kante: (38, 13); (49, 13)
+nächste Kante: (38, 13); (49, 13)
+
+Punkt: (61, 68)
+Punkt: (75, 86)
+(75, 86); (79, 76) Länge: 1
+nächste Kante: (79, 76); (80, 65)
+nächste Kante: (79, 76); (75, 86)
+
+Punkt: (79, 76)
+(79, 76); (75, 86) Länge: 1
+nächste Kante: (75, 86); (79, 76)
+nächste Kante: (80, 65); (79, 76)
+
+(79, 76); (80, 65) Länge: 3
+nächste Kante: (80, 65); (79, 76)
+nächste Kante: (75, 86); (79, 76)
+
+Punkt: (80, 65)
+(80, 65); (79, 76) Länge: 1
+nächste Kante: (79, 76); (75, 86)
+nächste Kante: (79, 76); (80, 65)
+
+Punkt: (94, 52)
+Punkt: (96, 115)
+(96, 115); (98, 104) Länge: 1
+nächste Kante: (98, 104); (96, 115)
+nächste Kante: (98, 104); (96, 115)
+
+Punkt: (98, 104)
+(98, 104); (96, 115) Länge: 1
+nächste Kante: (96, 115); (98, 104)
+nächste Kante: (96, 115); (98, 104)
+
+Punkt: (99, 10)
+Punkt: (110, 72)
+Punkt: (112, 85)
+Punkt: (116, 31)
+Punkt: (117, 16)
+Punkt: (118, 105)
+
+ G nach der Berechnung mit H
+Punkt: (2, 45)
+(2, 45); (12, 44) ; komprimierteLänge: 1
+Punkt: (12, 44)
+(12, 44); (2, 45) ; komprimierteLänge: 3
+Punkt: (28, 3)
+(28, 3); (29, 0) ; komprimierteLänge: 1
+Punkt: (28, 102)
+Punkt: (29, 0)
+(29, 0); (28, 3) ; komprimierteLänge: 1
+Punkt: (30, 82)
+Punkt: (33, 40)
+(33, 40); (42, 32) ; komprimierteLänge: 1
+Punkt: (38, 13)
+(38, 13); (49, 13) ; komprimierteLänge: 1
+Punkt: (42, 32)
+(42, 32); (33, 40) ; komprimierteLänge: 1
+Punkt: (44, 86)
+Punkt: (49, 13)
+(49, 13); (38, 13) ; komprimierteLänge: 1
+Punkt: (61, 68)
+Punkt: (75, 86)
+(75, 86); (79, 76) ; komprimierteLänge: 1
+Punkt: (79, 76)
+(79, 76); (75, 86) ; komprimierteLänge: 1
+(79, 76); (80, 65) ; komprimierteLänge: 3
+Punkt: (80, 65)
+(80, 65); (79, 76) ; komprimierteLänge: 1
+Punkt: (94, 52)
+Punkt: (96, 115)
+(96, 115); (98, 104) ; komprimierteLänge: 1
+Punkt: (98, 104)
+(98, 104); (96, 115) ; komprimierteLänge: 1
+Punkt: (99, 10)
+Punkt: (110, 72)
+Punkt: (112, 85)
+Punkt: (116, 31)
+Punkt: (117, 16)
+Punkt: (118, 105)
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (2, 45)
+(2, 45); (12, 44) ; komprimierteLänge: 1
+Punkt: (12, 44)
+(12, 44); (2, 45) ; komprimierteLänge: 3
+Punkt: (28, 3)
+(28, 3); (29, 0) ; komprimierteLänge: 1
+(28, 3); (38, 13) ; komprimierteLänge: 1
+Punkt: (28, 102)
+(28, 102); (30, 82) ; komprimierteLänge: 1
+Punkt: (29, 0)
+(29, 0); (28, 3) ; komprimierteLänge: 1
+Punkt: (30, 82)
+(30, 82); (44, 86) ; komprimierteLänge: 1
+(30, 82); (28, 102) ; komprimierteLänge: 1
+Punkt: (33, 40)
+(33, 40); (42, 32) ; komprimierteLänge: 1
+Punkt: (38, 13)
+(38, 13); (49, 13) ; komprimierteLänge: 1
+(38, 13); (28, 3) ; komprimierteLänge: 1
+(38, 13); (42, 32) ; komprimierteLänge: 1
+Punkt: (42, 32)
+(42, 32); (33, 40) ; komprimierteLänge: 1
+(42, 32); (38, 13) ; komprimierteLänge: 1
+Punkt: (44, 86)
+(44, 86); (30, 82) ; komprimierteLänge: 1
+Punkt: (49, 13)
+(49, 13); (38, 13) ; komprimierteLänge: 1
+Punkt: (61, 68)
+(61, 68); (80, 65) ; komprimierteLänge: 1
+Punkt: (75, 86)
+(75, 86); (79, 76) ; komprimierteLänge: 1
+Punkt: (79, 76)
+(79, 76); (75, 86) ; komprimierteLänge: 1
+(79, 76); (80, 65) ; komprimierteLänge: 3
+Punkt: (80, 65)
+(80, 65); (79, 76) ; komprimierteLänge: 1
+(80, 65); (94, 52) ; komprimierteLänge: 1
+(80, 65); (61, 68) ; komprimierteLänge: 1
+Punkt: (94, 52)
+(94, 52); (80, 65) ; komprimierteLänge: 1
+Punkt: (96, 115)
+(96, 115); (98, 104) ; komprimierteLänge: 1
+Punkt: (98, 104)
+(98, 104); (96, 115) ; komprimierteLänge: 1
+(98, 104); (118, 105) ; komprimierteLänge: 1
+Punkt: (99, 10)
+(99, 10); (117, 16) ; komprimierteLänge: 1
+Punkt: (110, 72)
+(110, 72); (112, 85) ; komprimierteLänge: 1
+Punkt: (112, 85)
+(112, 85); (110, 72) ; komprimierteLänge: 1
+Punkt: (116, 31)
+(116, 31); (117, 16) ; komprimierteLänge: 1
+Punkt: (117, 16)
+(117, 16); (116, 31) ; komprimierteLänge: 1
+(117, 16); (99, 10) ; komprimierteLänge: 1
+Punkt: (118, 105)
+(118, 105); (98, 104) ; komprimierteLänge: 1
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (2, 45)
+(2, 45); (12, 44) ; komprimierteLänge: 1
+Punkt: (12, 44)
+(12, 44); (2, 45) ; komprimierteLänge: 3
+Punkt: (28, 3)
+(28, 3); (29, 0) ; komprimierteLänge: 1
+(28, 3); (38, 13) ; komprimierteLänge: 1
+Punkt: (28, 102)
+(28, 102); (30, 82) ; komprimierteLänge: 1
+Punkt: (29, 0)
+(29, 0); (28, 3) ; komprimierteLänge: 1
+Punkt: (30, 82)
+(30, 82); (44, 86) ; komprimierteLänge: 1
+(30, 82); (28, 102) ; komprimierteLänge: 1
+Punkt: (33, 40)
+(33, 40); (42, 32) ; komprimierteLänge: 1
+Punkt: (38, 13)
+(38, 13); (49, 13) ; komprimierteLänge: 1
+(38, 13); (28, 3) ; komprimierteLänge: 1
+(38, 13); (42, 32) ; komprimierteLänge: 1
+Punkt: (42, 32)
+(42, 32); (33, 40) ; komprimierteLänge: 1
+(42, 32); (38, 13) ; komprimierteLänge: 1
+Punkt: (44, 86)
+(44, 86); (30, 82) ; komprimierteLänge: 1
+Punkt: (49, 13)
+(49, 13); (38, 13) ; komprimierteLänge: 1
+Punkt: (61, 68)
+(61, 68); (80, 65) ; komprimierteLänge: 1
+Punkt: (75, 86)
+(75, 86); (79, 76) ; komprimierteLänge: 1
+Punkt: (79, 76)
+(79, 76); (75, 86) ; komprimierteLänge: 1
+(79, 76); (80, 65) ; komprimierteLänge: 3
+Punkt: (80, 65)
+(80, 65); (79, 76) ; komprimierteLänge: 1
+(80, 65); (94, 52) ; komprimierteLänge: 1
+(80, 65); (61, 68) ; komprimierteLänge: 1
+Punkt: (94, 52)
+(94, 52); (80, 65) ; komprimierteLänge: 1
+Punkt: (96, 115)
+(96, 115); (98, 104) ; komprimierteLänge: 1
+Punkt: (98, 104)
+(98, 104); (96, 115) ; komprimierteLänge: 1
+(98, 104); (118, 105) ; komprimierteLänge: 1
+Punkt: (99, 10)
+(99, 10); (117, 16) ; komprimierteLänge: 1
+Punkt: (110, 72)
+(110, 72); (112, 85) ; komprimierteLänge: 1
+Punkt: (112, 85)
+(112, 85); (110, 72) ; komprimierteLänge: 1
+Punkt: (116, 31)
+(116, 31); (117, 16) ; komprimierteLänge: 1
+Punkt: (117, 16)
+(117, 16); (116, 31) ; komprimierteLänge: 1
+(117, 16); (99, 10) ; komprimierteLänge: 1
+Punkt: (118, 105)
+(118, 105); (98, 104) ; komprimierteLänge: 1
+
+ H-Edges:
+(2, 45); (12, 44)
+(28, 3); (29, 0)
+(33, 40); (42, 32)
+(28, 102); (30, 82)
+(61, 68); (80, 65)
+(96, 115); (98, 104)
+(99, 10); (117, 16)
+(87, 78); (79, 76)
+(28, 102); (30, 82)
+(118, 105); (98, 104)
+(112, 85); (110, 72)
+(33, 40); (42, 32)
+(12, 44); (2, 45)
+(28, 102); (30, 82)
+(10, 117); (5, 110)
+(110, 72); (112, 85)
+(87, 78); (79, 76)
+(61, 68); (80, 65)
+(44, 86); (30, 82)
+(94, 52); (80, 65)
+(110, 72); (112, 85)
+(94, 52); (80, 65)
+(116, 31); (117, 16)
+(94, 52); (80, 65)
+(99, 10); (117, 16)
+Läufe erfolgreich beendet. Das heißt nicht, dass die Ergebnisse stimmen!
+Punkt: (2, 45)
+(2, 45); (2, 45) Länge: 2
+nächste Kante: (2, 45); (12, 44)
+nächste Kante: (12, 44); (2, 45)
+
+(2, 45); (12, 44) Länge: 1
+nächste Kante: (12, 44); (2, 45)
+nächste Kante: (2, 45); (2, 45)
+
+Punkt: (5, 110)
+(5, 110); (10, 117) Länge: 1
+nächste Kante: (10, 117); (5, 110)
+nächste Kante: (10, 117); (5, 110)
+
+Punkt: (10, 117)
+(10, 117); (5, 110) Länge: 1
+nächste Kante: (5, 110); (10, 117)
+nächste Kante: (5, 110); (10, 117)
+
+Punkt: (12, 44)
+(12, 44); (2, 45) Länge: 1
+nächste Kante: (2, 45); (2, 45)
+nächste Kante: (2, 45); (12, 44)
+
+Punkt: (28, 3)
+(28, 3); (29, 0) Länge: 1
+nächste Kante: (29, 0); (33, 40)
+nächste Kante: (42, 32); (28, 3)
+
+Punkt: (28, 102)
+(28, 102); (30, 82) Länge: 1
+nächste Kante: (30, 82); (44, 86)
+nächste Kante: (30, 82); (28, 102)
+
+Punkt: (29, 0)
+(29, 0); (33, 40) Länge: 4
+nächste Kante: (33, 40); (42, 32)
+nächste Kante: (28, 3); (29, 0)
+
+Punkt: (30, 82)
+(30, 82); (44, 86) Länge: 1
+nächste Kante: (44, 86); (30, 82)
+nächste Kante: (28, 102); (30, 82)
+
+(30, 82); (28, 102) Länge: 1
+nächste Kante: (28, 102); (30, 82)
+nächste Kante: (44, 86); (30, 82)
+
+Punkt: (33, 40)
+(33, 40); (42, 32) Länge: 1
+nächste Kante: (42, 32); (28, 3)
+nächste Kante: (29, 0); (33, 40)
+
+Punkt: (40, 119)
+Punkt: (42, 32)
+(42, 32); (28, 3) Länge: 4
+nächste Kante: (28, 3); (29, 0)
+nächste Kante: (33, 40); (42, 32)
+
+Punkt: (44, 86)
+(44, 86); (30, 82) Länge: 1
+nächste Kante: (30, 82); (28, 102)
+nächste Kante: (30, 82); (44, 86)
+
+Punkt: (61, 68)
+(61, 68); (80, 65) Länge: 1
+nächste Kante: (80, 65); (87, 78)
+nächste Kante: (80, 65); (61, 68)
+
+Punkt: (77, 33)
+Punkt: (79, 76)
+(79, 76); (94, 52) Länge: 2
+nächste Kante: (94, 52); (80, 65)
+nächste Kante: (87, 78); (79, 76)
+
+Punkt: (80, 65)
+(80, 65); (87, 78) Länge: 4
+nächste Kante: (87, 78); (79, 76)
+nächste Kante: (61, 68); (80, 65)
+
+(80, 65); (61, 68) Länge: 1
+nächste Kante: (61, 68); (80, 65)
+nächste Kante: (94, 52); (80, 65)
+
+Punkt: (87, 78)
+(87, 78); (79, 76) Länge: 1
+nächste Kante: (79, 76); (94, 52)
+nächste Kante: (80, 65); (87, 78)
+
+Punkt: (94, 52)
+(94, 52); (80, 65) Länge: 1
+nächste Kante: (80, 65); (61, 68)
+nächste Kante: (79, 76); (94, 52)
+
+Punkt: (96, 115)
+(96, 115); (98, 104) Länge: 1
+nächste Kante: (98, 104); (118, 105)
+nächste Kante: (98, 104); (96, 115)
+
+Punkt: (98, 104)
+(98, 104); (96, 115) Länge: 1
+nächste Kante: (96, 115); (98, 104)
+nächste Kante: (118, 105); (98, 104)
+
+(98, 104); (118, 105) Länge: 1
+nächste Kante: (118, 105); (98, 104)
+nächste Kante: (96, 115); (98, 104)
+
+Punkt: (99, 10)
+(99, 10); (117, 16) Länge: 1
+nächste Kante: (117, 16); (116, 31)
+nächste Kante: (117, 16); (99, 10)
+
+Punkt: (110, 72)
+(110, 72); (112, 85) Länge: 1
+nächste Kante: (112, 85); (110, 72)
+nächste Kante: (112, 85); (110, 72)
+
+Punkt: (112, 85)
+(112, 85); (110, 72) Länge: 1
+nächste Kante: (110, 72); (112, 85)
+nächste Kante: (110, 72); (112, 85)
+
+Punkt: (116, 31)
+(116, 31); (117, 16) Länge: 1
+nächste Kante: (117, 16); (99, 10)
+nächste Kante: (117, 16); (116, 31)
+
+Punkt: (117, 16)
+(117, 16); (116, 31) Länge: 1
+nächste Kante: (116, 31); (117, 16)
+nächste Kante: (99, 10); (117, 16)
+
+(117, 16); (99, 10) Länge: 1
+nächste Kante: (99, 10); (117, 16)
+nächste Kante: (116, 31); (117, 16)
+
+Punkt: (118, 105)
+(118, 105); (98, 104) Länge: 1
+nächste Kante: (98, 104); (96, 115)
+nächste Kante: (98, 104); (118, 105)
+
+
+ G nach der Berechnung mit H
+Punkt: (2, 45)
+(2, 45); (2, 45) ; komprimierteLänge: 2
+(2, 45); (12, 44) ; komprimierteLänge: 1
+Punkt: (5, 110)
+(5, 110); (10, 117) ; komprimierteLänge: 1
+Punkt: (10, 117)
+(10, 117); (5, 110) ; komprimierteLänge: 1
+Punkt: (12, 44)
+(12, 44); (2, 45) ; komprimierteLänge: 1
+Punkt: (28, 3)
+(28, 3); (29, 0) ; komprimierteLänge: 1
+Punkt: (28, 102)
+(28, 102); (30, 82) ; komprimierteLänge: 1
+Punkt: (29, 0)
+(29, 0); (33, 40) ; komprimierteLänge: 4
+Punkt: (30, 82)
+(30, 82); (44, 86) ; komprimierteLänge: 1
+(30, 82); (28, 102) ; komprimierteLänge: 1
+Punkt: (33, 40)
+(33, 40); (42, 32) ; komprimierteLänge: 1
+Punkt: (40, 119)
+Punkt: (42, 32)
+(42, 32); (28, 3) ; komprimierteLänge: 4
+Punkt: (44, 86)
+(44, 86); (30, 82) ; komprimierteLänge: 1
+Punkt: (61, 68)
+(61, 68); (80, 65) ; komprimierteLänge: 1
+Punkt: (77, 33)
+Punkt: (79, 76)
+(79, 76); (94, 52) ; komprimierteLänge: 2
+Punkt: (80, 65)
+(80, 65); (87, 78) ; komprimierteLänge: 4
+(80, 65); (61, 68) ; komprimierteLänge: 1
+Punkt: (87, 78)
+(87, 78); (79, 76) ; komprimierteLänge: 1
+Punkt: (94, 52)
+(94, 52); (80, 65) ; komprimierteLänge: 1
+Punkt: (96, 115)
+(96, 115); (98, 104) ; komprimierteLänge: 1
+Punkt: (98, 104)
+(98, 104); (96, 115) ; komprimierteLänge: 1
+(98, 104); (118, 105) ; komprimierteLänge: 1
+Punkt: (99, 10)
+(99, 10); (117, 16) ; komprimierteLänge: 1
+Punkt: (110, 72)
+(110, 72); (112, 85) ; komprimierteLänge: 1
+Punkt: (112, 85)
+(112, 85); (110, 72) ; komprimierteLänge: 1
+Punkt: (116, 31)
+(116, 31); (117, 16) ; komprimierteLänge: 1
+Punkt: (117, 16)
+(117, 16); (116, 31) ; komprimierteLänge: 1
+(117, 16); (99, 10) ; komprimierteLänge: 1
+Punkt: (118, 105)
+(118, 105); (98, 104) ; komprimierteLänge: 1
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (2, 45)
+(2, 45); (2, 45) ; komprimierteLänge: 2
+(2, 45); (12, 44) ; komprimierteLänge: 1
+Punkt: (5, 110)
+(5, 110); (10, 117) ; komprimierteLänge: 1
+Punkt: (10, 117)
+(10, 117); (5, 110) ; komprimierteLänge: 1
+(10, 117); (28, 102) ; komprimierteLänge: 1
+Punkt: (12, 44)
+(12, 44); (2, 45) ; komprimierteLänge: 1
+(12, 44); (33, 40) ; komprimierteLänge: 1
+Punkt: (28, 3)
+(28, 3); (29, 0) ; komprimierteLänge: 1
+Punkt: (28, 102)
+(28, 102); (30, 82) ; komprimierteLänge: 1
+(28, 102); (40, 119) ; komprimierteLänge: 1
+(28, 102); (10, 117) ; komprimierteLänge: 1
+Punkt: (29, 0)
+(29, 0); (33, 40) ; komprimierteLänge: 4
+Punkt: (30, 82)
+(30, 82); (44, 86) ; komprimierteLänge: 1
+(30, 82); (28, 102) ; komprimierteLänge: 1
+Punkt: (33, 40)
+(33, 40); (42, 32) ; komprimierteLänge: 1
+(33, 40); (12, 44) ; komprimierteLänge: 1
+Punkt: (40, 119)
+(40, 119); (28, 102) ; komprimierteLänge: 1
+Punkt: (42, 32)
+(42, 32); (28, 3) ; komprimierteLänge: 4
+Punkt: (44, 86)
+(44, 86); (30, 82) ; komprimierteLänge: 1
+(44, 86); (61, 68) ; komprimierteLänge: 1
+Punkt: (61, 68)
+(61, 68); (80, 65) ; komprimierteLänge: 1
+(61, 68); (44, 86) ; komprimierteLänge: 1
+Punkt: (77, 33)
+(77, 33); (94, 52) ; komprimierteLänge: 1
+(77, 33); (99, 10) ; komprimierteLänge: 1
+Punkt: (79, 76)
+(79, 76); (94, 52) ; komprimierteLänge: 2
+Punkt: (80, 65)
+(80, 65); (87, 78) ; komprimierteLänge: 4
+(80, 65); (61, 68) ; komprimierteLänge: 1
+Punkt: (87, 78)
+(87, 78); (79, 76) ; komprimierteLänge: 1
+(87, 78); (110, 72) ; komprimierteLänge: 1
+Punkt: (94, 52)
+(94, 52); (80, 65) ; komprimierteLänge: 1
+(94, 52); (77, 33) ; komprimierteLänge: 1
+(94, 52); (110, 72) ; komprimierteLänge: 1
+(94, 52); (116, 31) ; komprimierteLänge: 1
+Punkt: (96, 115)
+(96, 115); (98, 104) ; komprimierteLänge: 1
+Punkt: (98, 104)
+(98, 104); (96, 115) ; komprimierteLänge: 1
+(98, 104); (118, 105) ; komprimierteLänge: 1
+Punkt: (99, 10)
+(99, 10); (117, 16) ; komprimierteLänge: 1
+(99, 10); (77, 33) ; komprimierteLänge: 1
+Punkt: (110, 72)
+(110, 72); (112, 85) ; komprimierteLänge: 1
+(110, 72); (87, 78) ; komprimierteLänge: 1
+(110, 72); (94, 52) ; komprimierteLänge: 1
+Punkt: (112, 85)
+(112, 85); (110, 72) ; komprimierteLänge: 1
+(112, 85); (118, 105) ; komprimierteLänge: 1
+Punkt: (116, 31)
+(116, 31); (117, 16) ; komprimierteLänge: 1
+(116, 31); (94, 52) ; komprimierteLänge: 1
+Punkt: (117, 16)
+(117, 16); (116, 31) ; komprimierteLänge: 1
+(117, 16); (99, 10) ; komprimierteLänge: 1
+Punkt: (118, 105)
+(118, 105); (98, 104) ; komprimierteLänge: 1
+(118, 105); (112, 85) ; komprimierteLänge: 1
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (2, 45)
+(2, 45); (2, 45) ; komprimierteLänge: 2
+(2, 45); (12, 44) ; komprimierteLänge: 1
+Punkt: (5, 110)
+(5, 110); (10, 117) ; komprimierteLänge: 1
+Punkt: (10, 117)
+(10, 117); (5, 110) ; komprimierteLänge: 1
+(10, 117); (28, 102) ; komprimierteLänge: 1
+Punkt: (12, 44)
+(12, 44); (2, 45) ; komprimierteLänge: 1
+(12, 44); (33, 40) ; komprimierteLänge: 1
+Punkt: (28, 3)
+(28, 3); (29, 0) ; komprimierteLänge: 1
+Punkt: (28, 102)
+(28, 102); (30, 82) ; komprimierteLänge: 1
+(28, 102); (40, 119) ; komprimierteLänge: 1
+(28, 102); (10, 117) ; komprimierteLänge: 1
+Punkt: (29, 0)
+(29, 0); (33, 40) ; komprimierteLänge: 4
+Punkt: (30, 82)
+(30, 82); (44, 86) ; komprimierteLänge: 1
+(30, 82); (28, 102) ; komprimierteLänge: 1
+Punkt: (33, 40)
+(33, 40); (42, 32) ; komprimierteLänge: 1
+(33, 40); (12, 44) ; komprimierteLänge: 1
+Punkt: (40, 119)
+(40, 119); (28, 102) ; komprimierteLänge: 1
+Punkt: (42, 32)
+(42, 32); (28, 3) ; komprimierteLänge: 4
+Punkt: (44, 86)
+(44, 86); (30, 82) ; komprimierteLänge: 1
+(44, 86); (61, 68) ; komprimierteLänge: 1
+Punkt: (61, 68)
+(61, 68); (80, 65) ; komprimierteLänge: 1
+(61, 68); (44, 86) ; komprimierteLänge: 1
+Punkt: (77, 33)
+(77, 33); (94, 52) ; komprimierteLänge: 1
+(77, 33); (99, 10) ; komprimierteLänge: 1
+Punkt: (79, 76)
+(79, 76); (94, 52) ; komprimierteLänge: 2
+Punkt: (80, 65)
+(80, 65); (87, 78) ; komprimierteLänge: 4
+(80, 65); (61, 68) ; komprimierteLänge: 1
+Punkt: (87, 78)
+(87, 78); (79, 76) ; komprimierteLänge: 1
+(87, 78); (110, 72) ; komprimierteLänge: 1
+Punkt: (94, 52)
+(94, 52); (80, 65) ; komprimierteLänge: 1
+(94, 52); (77, 33) ; komprimierteLänge: 1
+(94, 52); (110, 72) ; komprimierteLänge: 1
+(94, 52); (116, 31) ; komprimierteLänge: 1
+Punkt: (96, 115)
+(96, 115); (98, 104) ; komprimierteLänge: 1
+Punkt: (98, 104)
+(98, 104); (96, 115) ; komprimierteLänge: 1
+(98, 104); (118, 105) ; komprimierteLänge: 1
+Punkt: (99, 10)
+(99, 10); (117, 16) ; komprimierteLänge: 1
+(99, 10); (77, 33) ; komprimierteLänge: 1
+Punkt: (110, 72)
+(110, 72); (112, 85) ; komprimierteLänge: 1
+(110, 72); (87, 78) ; komprimierteLänge: 1
+(110, 72); (94, 52) ; komprimierteLänge: 1
+Punkt: (112, 85)
+(112, 85); (110, 72) ; komprimierteLänge: 1
+(112, 85); (118, 105) ; komprimierteLänge: 1
+Punkt: (116, 31)
+(116, 31); (117, 16) ; komprimierteLänge: 1
+(116, 31); (94, 52) ; komprimierteLänge: 1
+Punkt: (117, 16)
+(117, 16); (116, 31) ; komprimierteLänge: 1
+(117, 16); (99, 10) ; komprimierteLänge: 1
+Punkt: (118, 105)
+(118, 105); (98, 104) ; komprimierteLänge: 1
+(118, 105); (112, 85) ; komprimierteLänge: 1
+
+ H-Edges:
+(2, 45); (12, 44)
+(33, 40); (12, 44)
+(5, 110); (10, 117)
+(30, 82); (44, 86)
+(112, 85); (118, 105)
+(98, 104); (118, 105)
+(94, 52); (116, 31)
+(77, 33); (94, 52)
+(44, 86); (30, 82)
+(77, 33); (99, 10)
+(94, 52); (110, 72)
+(29, 0); (28, 3)
+(38, 13); (49, 13)
+(75, 86); (79, 76)
+(77, 33); (94, 52)
+(49, 13); (38, 13)
+(61, 68); (44, 86)
+(33, 40); (42, 32)
+(30, 82); (28, 102)
+(12, 44); (33, 40)
+(94, 52); (110, 72)
+vorherige Kante: (94, 52); (110, 72) bekommt als Nachfolger: (110, 72); (94, 52)
+aktuelle Kante: (94, 52); (110, 72) bekommt als Vorgänger: (110, 72); (94, 52)
+Läufe erfolgreich beendet. Das heißt nicht, dass die Ergebnisse stimmen!
+Punkt: (2, 45)
+(2, 45); (12, 44) Länge: 1
+nächste Kante: (12, 44); (33, 40)
+nächste Kante: (12, 44); (2, 45)
+
+Punkt: (5, 110)
+(5, 110); (10, 117) Länge: 1
+nächste Kante: (10, 117); (30, 82)
+nächste Kante: (28, 102); (5, 110)
+
+Punkt: (10, 117)
+(10, 117); (30, 82) Länge: 4
+nächste Kante: (30, 82); (44, 86)
+nächste Kante: (5, 110); (10, 117)
+
+Punkt: (12, 44)
+(12, 44); (2, 45) Länge: 3
+nächste Kante: (2, 45); (12, 44)
+nächste Kante: (33, 40); (12, 44)
+
+(12, 44); (33, 40) Länge: 1
+nächste Kante: (33, 40); (42, 32)
+nächste Kante: (2, 45); (12, 44)
+
+Punkt: (28, 3)
+(28, 3); (33, 40) Länge: 3
+nächste Kante: (33, 40); (12, 44)
+nächste Kante: (29, 0); (28, 3)
+
+Punkt: (28, 102)
+(28, 102); (5, 110) Länge: 2
+nächste Kante: (5, 110); (10, 117)
+nächste Kante: (30, 82); (28, 102)
+
+Punkt: (29, 0)
+(29, 0); (28, 3) Länge: 1
+nächste Kante: (28, 3); (33, 40)
+nächste Kante: (38, 13); (29, 0)
+
+Punkt: (30, 82)
+(30, 82); (44, 86) Länge: 1
+nächste Kante: (44, 86); (75, 86)
+nächste Kante: (10, 117); (30, 82)
+
+(30, 82); (28, 102) Länge: 1
+nächste Kante: (28, 102); (5, 110)
+nächste Kante: (44, 86); (30, 82)
+
+Punkt: (33, 40)
+(33, 40); (42, 32) Länge: 1
+nächste Kante: (42, 32); (38, 13)
+nächste Kante: (12, 44); (33, 40)
+
+(33, 40); (12, 44) Länge: 1
+nächste Kante: (12, 44); (2, 45)
+nächste Kante: (28, 3); (33, 40)
+
+Punkt: (38, 13)
+(38, 13); (49, 13) Länge: 1
+nächste Kante: (49, 13); (38, 13)
+nächste Kante: (42, 32); (38, 13)
+
+(38, 13); (29, 0) Länge: 2
+nächste Kante: (29, 0); (28, 3)
+nächste Kante: (49, 13); (38, 13)
+
+Punkt: (42, 32)
+(42, 32); (38, 13) Länge: 1
+nächste Kante: (38, 13); (49, 13)
+nächste Kante: (33, 40); (42, 32)
+
+Punkt: (44, 86)
+(44, 86); (30, 82) Länge: 1
+nächste Kante: (30, 82); (28, 102)
+nächste Kante: (61, 68); (44, 86)
+
+(44, 86); (75, 86) Länge: 4
+nächste Kante: (75, 86); (79, 76)
+nächste Kante: (30, 82); (44, 86)
+
+Punkt: (49, 13)
+(49, 13); (38, 13) Länge: 1
+nächste Kante: (38, 13); (29, 0)
+nächste Kante: (38, 13); (49, 13)
+
+Punkt: (61, 68)
+(61, 68); (44, 86) Länge: 1
+nächste Kante: (44, 86); (30, 82)
+nächste Kante: (94, 52); (61, 68)
+
+Punkt: (75, 86)
+(75, 86); (79, 76) Länge: 1
+nächste Kante: (79, 76); (112, 85)
+nächste Kante: (44, 86); (75, 86)
+
+Punkt: (77, 33)
+(77, 33); (94, 52) Länge: 1
+nächste Kante: (94, 52); (61, 68)
+nächste Kante: (116, 31); (77, 33)
+
+(77, 33); (99, 10) Länge: 1
+nächste Kante: (99, 10); (77, 33)
+nächste Kante: (99, 10); (77, 33)
+
+Punkt: (79, 76)
+(79, 76); (112, 85) Länge: 3
+nächste Kante: (112, 85); (118, 105)
+nächste Kante: (75, 86); (79, 76)
+
+Punkt: (94, 52)
+(94, 52); (110, 72) Länge: 1
+nächste Kante: (110, 72); (94, 52)
+nächste Kante: (110, 72); (94, 52)
+
+(94, 52); (116, 31) Länge: 1
+nächste Kante: (116, 31); (77, 33)
+nächste Kante: (118, 105); (94, 52)
+
+(94, 52); (61, 68) Länge: 2
+nächste Kante: (61, 68); (44, 86)
+nächste Kante: (77, 33); (94, 52)
+
+Punkt: (98, 104)
+(98, 104); (118, 105) Länge: 1
+nächste Kante: (118, 105); (94, 52)
+nächste Kante: (118, 105); (98, 104)
+
+Punkt: (99, 10)
+(99, 10); (77, 33) Länge: 4
+nächste Kante: (77, 33); (99, 10)
+nächste Kante: (77, 33); (99, 10)
+
+Punkt: (110, 72)
+(110, 72); (94, 52) Länge: 4
+nächste Kante: (94, 52); (110, 72)
+nächste Kante: (94, 52); (110, 72)
+
+Punkt: (112, 85)
+(112, 85); (118, 105) Länge: 1
+nächste Kante: (118, 105); (98, 104)
+nächste Kante: (79, 76); (112, 85)
+
+Punkt: (116, 31)
+(116, 31); (77, 33) Länge: 3
+nächste Kante: (77, 33); (94, 52)
+nächste Kante: (94, 52); (116, 31)
+
+Punkt: (118, 105)
+(118, 105); (98, 104) Länge: 3
+nächste Kante: (98, 104); (118, 105)
+nächste Kante: (112, 85); (118, 105)
+
+(118, 105); (94, 52) Länge: 3
+nächste Kante: (94, 52); (116, 31)
+nächste Kante: (98, 104); (118, 105)
+
+
+ G nach der Berechnung mit H
+Punkt: (2, 45)
+(2, 45); (12, 44) ; komprimierteLänge: 1
+Punkt: (5, 110)
+(5, 110); (10, 117) ; komprimierteLänge: 1
+Punkt: (10, 117)
+(10, 117); (30, 82) ; komprimierteLänge: 4
+Punkt: (12, 44)
+(12, 44); (2, 45) ; komprimierteLänge: 3
+(12, 44); (33, 40) ; komprimierteLänge: 1
+Punkt: (28, 3)
+(28, 3); (33, 40) ; komprimierteLänge: 3
+Punkt: (28, 102)
+(28, 102); (5, 110) ; komprimierteLänge: 2
+Punkt: (29, 0)
+(29, 0); (28, 3) ; komprimierteLänge: 1
+Punkt: (30, 82)
+(30, 82); (44, 86) ; komprimierteLänge: 1
+(30, 82); (28, 102) ; komprimierteLänge: 1
+Punkt: (33, 40)
+(33, 40); (42, 32) ; komprimierteLänge: 1
+(33, 40); (12, 44) ; komprimierteLänge: 1
+Punkt: (38, 13)
+(38, 13); (49, 13) ; komprimierteLänge: 1
+(38, 13); (29, 0) ; komprimierteLänge: 2
+Punkt: (42, 32)
+(42, 32); (38, 13) ; komprimierteLänge: 1
+Punkt: (44, 86)
+(44, 86); (30, 82) ; komprimierteLänge: 1
+(44, 86); (75, 86) ; komprimierteLänge: 4
+Punkt: (49, 13)
+(49, 13); (38, 13) ; komprimierteLänge: 1
+Punkt: (61, 68)
+(61, 68); (44, 86) ; komprimierteLänge: 1
+Punkt: (75, 86)
+(75, 86); (79, 76) ; komprimierteLänge: 1
+Punkt: (77, 33)
+(77, 33); (94, 52) ; komprimierteLänge: 1
+(77, 33); (99, 10) ; komprimierteLänge: 1
+Punkt: (79, 76)
+(79, 76); (112, 85) ; komprimierteLänge: 3
+Punkt: (94, 52)
+(94, 52); (110, 72) ; komprimierteLänge: 1
+(94, 52); (116, 31) ; komprimierteLänge: 1
+(94, 52); (61, 68) ; komprimierteLänge: 2
+Punkt: (98, 104)
+(98, 104); (118, 105) ; komprimierteLänge: 1
+Punkt: (99, 10)
+(99, 10); (77, 33) ; komprimierteLänge: 4
+Punkt: (110, 72)
+(110, 72); (94, 52) ; komprimierteLänge: 4
+Punkt: (112, 85)
+(112, 85); (118, 105) ; komprimierteLänge: 1
+Punkt: (116, 31)
+(116, 31); (77, 33) ; komprimierteLänge: 3
+Punkt: (118, 105)
+(118, 105); (98, 104) ; komprimierteLänge: 3
+(118, 105); (94, 52) ; komprimierteLänge: 3
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (2, 45)
+(2, 45); (12, 44) ; komprimierteLänge: 1
+Punkt: (5, 110)
+(5, 110); (10, 117) ; komprimierteLänge: 1
+Punkt: (10, 117)
+(10, 117); (30, 82) ; komprimierteLänge: 4
+Punkt: (12, 44)
+(12, 44); (2, 45) ; komprimierteLänge: 3
+(12, 44); (33, 40) ; komprimierteLänge: 1
+(12, 44); (30, 82) ; komprimierteLänge: 1
+Punkt: (28, 3)
+(28, 3); (33, 40) ; komprimierteLänge: 3
+Punkt: (28, 102)
+(28, 102); (5, 110) ; komprimierteLänge: 2
+Punkt: (29, 0)
+(29, 0); (28, 3) ; komprimierteLänge: 1
+Punkt: (30, 82)
+(30, 82); (44, 86) ; komprimierteLänge: 1
+(30, 82); (28, 102) ; komprimierteLänge: 1
+(30, 82); (12, 44) ; komprimierteLänge: 1
+Punkt: (33, 40)
+(33, 40); (42, 32) ; komprimierteLänge: 1
+(33, 40); (12, 44) ; komprimierteLänge: 1
+(33, 40); (61, 68) ; komprimierteLänge: 1
+Punkt: (38, 13)
+(38, 13); (49, 13) ; komprimierteLänge: 1
+(38, 13); (29, 0) ; komprimierteLänge: 2
+Punkt: (42, 32)
+(42, 32); (38, 13) ; komprimierteLänge: 1
+Punkt: (44, 86)
+(44, 86); (30, 82) ; komprimierteLänge: 1
+(44, 86); (75, 86) ; komprimierteLänge: 4
+Punkt: (49, 13)
+(49, 13); (38, 13) ; komprimierteLänge: 1
+(49, 13); (77, 33) ; komprimierteLänge: 1
+Punkt: (61, 68)
+(61, 68); (44, 86) ; komprimierteLänge: 1
+(61, 68); (33, 40) ; komprimierteLänge: 1
+Punkt: (75, 86)
+(75, 86); (79, 76) ; komprimierteLänge: 1
+Punkt: (77, 33)
+(77, 33); (94, 52) ; komprimierteLänge: 1
+(77, 33); (99, 10) ; komprimierteLänge: 1
+(77, 33); (49, 13) ; komprimierteLänge: 1
+Punkt: (79, 76)
+(79, 76); (112, 85) ; komprimierteLänge: 3
+Punkt: (94, 52)
+(94, 52); (110, 72) ; komprimierteLänge: 1
+(94, 52); (116, 31) ; komprimierteLänge: 1
+(94, 52); (61, 68) ; komprimierteLänge: 2
+Punkt: (98, 104)
+(98, 104); (118, 105) ; komprimierteLänge: 1
+Punkt: (99, 10)
+(99, 10); (77, 33) ; komprimierteLänge: 4
+Punkt: (110, 72)
+(110, 72); (94, 52) ; komprimierteLänge: 4
+Punkt: (112, 85)
+(112, 85); (118, 105) ; komprimierteLänge: 1
+Punkt: (116, 31)
+(116, 31); (77, 33) ; komprimierteLänge: 3
+Punkt: (118, 105)
+(118, 105); (98, 104) ; komprimierteLänge: 3
+(118, 105); (94, 52) ; komprimierteLänge: 3
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (2, 45)
+(2, 45); (12, 44) ; komprimierteLänge: 1
+Punkt: (5, 110)
+(5, 110); (10, 117) ; komprimierteLänge: 1
+Punkt: (10, 117)
+(10, 117); (30, 82) ; komprimierteLänge: 4
+Punkt: (12, 44)
+(12, 44); (2, 45) ; komprimierteLänge: 3
+(12, 44); (33, 40) ; komprimierteLänge: 1
+(12, 44); (30, 82) ; komprimierteLänge: 1
+Punkt: (28, 3)
+(28, 3); (33, 40) ; komprimierteLänge: 3
+Punkt: (28, 102)
+(28, 102); (5, 110) ; komprimierteLänge: 2
+Punkt: (29, 0)
+(29, 0); (28, 3) ; komprimierteLänge: 1
+Punkt: (30, 82)
+(30, 82); (44, 86) ; komprimierteLänge: 1
+(30, 82); (28, 102) ; komprimierteLänge: 1
+(30, 82); (12, 44) ; komprimierteLänge: 1
+Punkt: (33, 40)
+(33, 40); (42, 32) ; komprimierteLänge: 1
+(33, 40); (12, 44) ; komprimierteLänge: 1
+(33, 40); (61, 68) ; komprimierteLänge: 1
+Punkt: (38, 13)
+(38, 13); (49, 13) ; komprimierteLänge: 1
+(38, 13); (29, 0) ; komprimierteLänge: 2
+Punkt: (42, 32)
+(42, 32); (38, 13) ; komprimierteLänge: 1
+Punkt: (44, 86)
+(44, 86); (30, 82) ; komprimierteLänge: 1
+(44, 86); (75, 86) ; komprimierteLänge: 4
+Punkt: (49, 13)
+(49, 13); (38, 13) ; komprimierteLänge: 1
+(49, 13); (77, 33) ; komprimierteLänge: 1
+Punkt: (61, 68)
+(61, 68); (44, 86) ; komprimierteLänge: 1
+(61, 68); (33, 40) ; komprimierteLänge: 1
+Punkt: (75, 86)
+(75, 86); (79, 76) ; komprimierteLänge: 1
+Punkt: (77, 33)
+(77, 33); (94, 52) ; komprimierteLänge: 1
+(77, 33); (99, 10) ; komprimierteLänge: 1
+(77, 33); (49, 13) ; komprimierteLänge: 1
+Punkt: (79, 76)
+(79, 76); (112, 85) ; komprimierteLänge: 3
+Punkt: (94, 52)
+(94, 52); (110, 72) ; komprimierteLänge: 1
+(94, 52); (116, 31) ; komprimierteLänge: 1
+(94, 52); (61, 68) ; komprimierteLänge: 2
+Punkt: (98, 104)
+(98, 104); (118, 105) ; komprimierteLänge: 1
+Punkt: (99, 10)
+(99, 10); (77, 33) ; komprimierteLänge: 4
+Punkt: (110, 72)
+(110, 72); (94, 52) ; komprimierteLänge: 4
+Punkt: (112, 85)
+(112, 85); (118, 105) ; komprimierteLänge: 1
+Punkt: (116, 31)
+(116, 31); (77, 33) ; komprimierteLänge: 3
+Punkt: (118, 105)
+(118, 105); (98, 104) ; komprimierteLänge: 3
+(118, 105); (94, 52) ; komprimierteLänge: 3

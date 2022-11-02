@@ -1,0 +1,92 @@
+Punkt: (119, 81) und assoziierter Punkt: (119, 81)
+
+Punkt: (116, 32) und assoziierter Punkt: (116, 32)
+
+Punkt: (113, 34) und assoziierter Punkt: (113, 34)
+
+(113, 34); (116, 32)
+Punkt: (107, 51) und assoziierter Punkt: (107, 51)
+
+Punkt: (106, 46) und assoziierter Punkt: (106, 46)
+
+(106, 46); (113, 34)
+(106, 46); (107, 51)
+Punkt: (105, 5) und assoziierter Punkt: (105, 5)
+
+(105, 5); (116, 32)
+Punkt: (104, 95) und assoziierter Punkt: (104, 95)
+
+(104, 95); (119, 81)
+Punkt: (103, 45) und assoziierter Punkt: (103, 45)
+
+(103, 45); (106, 46)
+Punkt: (101, 65) und assoziierter Punkt: (101, 65)
+
+(101, 65); (119, 81)
+(101, 65); (107, 51)
+Punkt: (97, 69) und assoziierter Punkt: (97, 69)
+
+(97, 69); (101, 65)
+Punkt: (95, 42) und assoziierter Punkt: (95, 42)
+
+(95, 42); (103, 45)
+Punkt: (93, 77) und assoziierter Punkt: (93, 77)
+
+(93, 77); (104, 95)
+(93, 77); (97, 69)
+Punkt: (90, 59) und assoziierter Punkt: (90, 59)
+
+(90, 59); (97, 69)
+(90, 59); (95, 42)
+Punkt: (81, 115) und assoziierter Punkt: (81, 115)
+
+Punkt: (74, 100) und assoziierter Punkt: (74, 100)
+
+(74, 100); (81, 115)
+Punkt: (74, 31) und assoziierter Punkt: (74, 31)
+
+(74, 31); (95, 42)
+Punkt: (71, 93) und assoziierter Punkt: (71, 93)
+
+(71, 93); (93, 77)
+(71, 93); (74, 100)
+Punkt: (56, 19) und assoziierter Punkt: (56, 19)
+
+(56, 19); (74, 31)
+Punkt: (54, 6) und assoziierter Punkt: (54, 6)
+
+(54, 6); (56, 19)
+Punkt: (38, 50) und assoziierter Punkt: (38, 50)
+
+Punkt: (32, 50) und assoziierter Punkt: (32, 50)
+
+(32, 50); (38, 50)
+Punkt: (30, 35) und assoziierter Punkt: (30, 35)
+
+(30, 35); (56, 19)
+Punkt: (26, 45) und assoziierter Punkt: (26, 45)
+
+(26, 45); (32, 50)
+(26, 45); (30, 35)
+Punkt: (25, 107) und assoziierter Punkt: (25, 107)
+
+(25, 107); (71, 93)
+Punkt: (15, 54) und assoziierter Punkt: (15, 54)
+
+(15, 54); (26, 45)
+Punkt: (14, 118) und assoziierter Punkt: (14, 118)
+
+(14, 118); (25, 107)
+Punkt: (13, 93) und assoziierter Punkt: (13, 93)
+
+(13, 93); (25, 107)
+(13, 93); (15, 54)
+Punkt: (11, 11) und assoziierter Punkt: (11, 11)
+
+(11, 11); (30, 35)
+Punkt: (5, 113) und assoziierter Punkt: (5, 113)
+
+Punkt: (4, 119) und assoziierter Punkt: (4, 119)
+
+(4, 119); (14, 118)
+(4, 119); (5, 113)

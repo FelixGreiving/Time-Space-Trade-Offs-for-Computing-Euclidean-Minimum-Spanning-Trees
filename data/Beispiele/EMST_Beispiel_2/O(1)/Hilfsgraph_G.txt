@@ -1,0 +1,1020 @@
+
+ H-Edges:
+
+ G nach der Berechnung mit H
+Punkt: (112, 64)
+Punkt: (116, 65)
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (112, 64)
+(112, 64); (116, 65) ; komprimierteLänge: 1 ; 0
+Punkt: (116, 65)
+(116, 65); (112, 64) ; komprimierteLänge: 1 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (112, 64)
+(112, 64); (116, 65) ; komprimierteLänge: 1 ; 0
+Punkt: (116, 65)
+(116, 65); (112, 64) ; komprimierteLänge: 1 ; 0
+
+ H-Edges:
+
+ G nach der Berechnung mit H
+Punkt: (60, 24)
+Punkt: (63, 21)
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (60, 24)
+(60, 24); (63, 21) ; komprimierteLänge: 1 ; 0
+Punkt: (63, 21)
+(63, 21); (60, 24) ; komprimierteLänge: 1 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (60, 24)
+(60, 24); (63, 21) ; komprimierteLänge: 1 ; 0
+Punkt: (63, 21)
+(63, 21); (60, 24) ; komprimierteLänge: 1 ; 0
+
+ H-Edges:
+
+ G nach der Berechnung mit H
+Punkt: (107, 0)
+Punkt: (111, 4)
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (107, 0)
+(107, 0); (111, 4) ; komprimierteLänge: 1 ; 0
+Punkt: (111, 4)
+(111, 4); (107, 0) ; komprimierteLänge: 1 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (107, 0)
+(107, 0); (111, 4) ; komprimierteLänge: 1 ; 0
+Punkt: (111, 4)
+(111, 4); (107, 0) ; komprimierteLänge: 1 ; 0
+
+ H-Edges:
+
+ G nach der Berechnung mit H
+Punkt: (23, 28)
+Punkt: (28, 25)
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (23, 28)
+(23, 28); (28, 25) ; komprimierteLänge: 1 ; 0
+Punkt: (28, 25)
+(28, 25); (23, 28) ; komprimierteLänge: 1 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (23, 28)
+(23, 28); (28, 25) ; komprimierteLänge: 1 ; 0
+Punkt: (28, 25)
+(28, 25); (23, 28) ; komprimierteLänge: 1 ; 0
+
+ H-Edges:
+
+ G nach der Berechnung mit H
+Punkt: (18, 5)
+Punkt: (22, 10)
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (18, 5)
+(18, 5); (22, 10) ; komprimierteLänge: 1 ; 0
+Punkt: (22, 10)
+(22, 10); (18, 5) ; komprimierteLänge: 1 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (18, 5)
+(18, 5); (22, 10) ; komprimierteLänge: 1 ; 0
+Punkt: (22, 10)
+(22, 10); (18, 5) ; komprimierteLänge: 1 ; 0
+
+ H-Edges:
+
+ G nach der Berechnung mit H
+Punkt: (75, 105)
+Punkt: (82, 111)
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (75, 105)
+(75, 105); (82, 111) ; komprimierteLänge: 1 ; 0
+Punkt: (82, 111)
+(82, 111); (75, 105) ; komprimierteLänge: 1 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (75, 105)
+(75, 105); (82, 111) ; komprimierteLänge: 1 ; 0
+Punkt: (82, 111)
+(82, 111); (75, 105) ; komprimierteLänge: 1 ; 0
+
+ H-Edges:
+(63, 21); (60, 24)
+
+ G nach der Berechnung mit H
+Punkt: (60, 24)
+(60, 24); (63, 21) ; komprimierteLänge: 1 ; 0
+Punkt: (63, 21)
+(63, 21); (60, 24) ; komprimierteLänge: 1 ; 0
+Punkt: (66, 12)
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (60, 24)
+(60, 24); (63, 21) ; komprimierteLänge: 1 ; 0
+Punkt: (63, 21)
+(63, 21); (60, 24) ; komprimierteLänge: 1 ; 0
+(63, 21); (66, 12) ; komprimierteLänge: 1 ; 0
+Punkt: (66, 12)
+(66, 12); (63, 21) ; komprimierteLänge: 1 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (60, 24)
+(60, 24); (63, 21) ; komprimierteLänge: 1 ; 0
+Punkt: (63, 21)
+(63, 21); (60, 24) ; komprimierteLänge: 1 ; 0
+(63, 21); (66, 12) ; komprimierteLänge: 1 ; 0
+Punkt: (66, 12)
+(66, 12); (63, 21) ; komprimierteLänge: 1 ; 0
+
+ H-Edges:
+
+ G nach der Berechnung mit H
+Punkt: (14, 71)
+Punkt: (20, 62)
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (14, 71)
+(14, 71); (20, 62) ; komprimierteLänge: 1 ; 0
+Punkt: (20, 62)
+(20, 62); (14, 71) ; komprimierteLänge: 1 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (14, 71)
+(14, 71); (20, 62) ; komprimierteLänge: 1 ; 0
+Punkt: (20, 62)
+(20, 62); (14, 71) ; komprimierteLänge: 1 ; 0
+
+ H-Edges:
+
+ G nach der Berechnung mit H
+Punkt: (12, 90)
+Punkt: (22, 95)
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (12, 90)
+(12, 90); (22, 95) ; komprimierteLänge: 1 ; 0
+Punkt: (22, 95)
+(22, 95); (12, 90) ; komprimierteLänge: 1 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (12, 90)
+(12, 90); (22, 95) ; komprimierteLänge: 1 ; 0
+Punkt: (22, 95)
+(22, 95); (12, 90) ; komprimierteLänge: 1 ; 0
+
+ H-Edges:
+
+ G nach der Berechnung mit H
+Punkt: (72, 34)
+Punkt: (76, 23)
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (72, 34)
+(72, 34); (76, 23) ; komprimierteLänge: 1 ; 0
+Punkt: (76, 23)
+(76, 23); (72, 34) ; komprimierteLänge: 1 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (72, 34)
+(72, 34); (76, 23) ; komprimierteLänge: 1 ; 0
+Punkt: (76, 23)
+(76, 23); (72, 34) ; komprimierteLänge: 1 ; 0
+
+ H-Edges:
+
+ G nach der Berechnung mit H
+Punkt: (111, 24)
+Punkt: (119, 33)
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (111, 24)
+(111, 24); (119, 33) ; komprimierteLänge: 1 ; 0
+Punkt: (119, 33)
+(119, 33); (111, 24) ; komprimierteLänge: 1 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (111, 24)
+(111, 24); (119, 33) ; komprimierteLänge: 1 ; 0
+Punkt: (119, 33)
+(119, 33); (111, 24) ; komprimierteLänge: 1 ; 0
+
+ H-Edges:
+(76, 23); (72, 34)
+(63, 21); (66, 12)
+
+ G nach der Berechnung mit H
+Punkt: (63, 21)
+(63, 21); (66, 12) ; komprimierteLänge: 1 ; 0
+Punkt: (66, 12)
+(66, 12); (63, 21) ; komprimierteLänge: 3 ; 0
+Punkt: (72, 34)
+(72, 34); (76, 23) ; komprimierteLänge: 1 ; 0
+Punkt: (76, 23)
+(76, 23); (72, 34) ; komprimierteLänge: 1 ; 0
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (63, 21)
+(63, 21); (66, 12) ; komprimierteLänge: 1 ; 0
+(63, 21); (76, 23) ; komprimierteLänge: 1 ; 0
+Punkt: (66, 12)
+(66, 12); (63, 21) ; komprimierteLänge: 3 ; 0
+Punkt: (72, 34)
+(72, 34); (76, 23) ; komprimierteLänge: 1 ; 0
+Punkt: (76, 23)
+(76, 23); (72, 34) ; komprimierteLänge: 1 ; 0
+(76, 23); (63, 21) ; komprimierteLänge: 1 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (63, 21)
+(63, 21); (66, 12) ; komprimierteLänge: 1 ; 0
+(63, 21); (76, 23) ; komprimierteLänge: 1 ; 0
+Punkt: (66, 12)
+(66, 12); (63, 21) ; komprimierteLänge: 3 ; 0
+Punkt: (72, 34)
+(72, 34); (76, 23) ; komprimierteLänge: 1 ; 0
+Punkt: (76, 23)
+(76, 23); (72, 34) ; komprimierteLänge: 1 ; 0
+(76, 23); (63, 21) ; komprimierteLänge: 1 ; 0
+
+ H-Edges:
+
+ G nach der Berechnung mit H
+Punkt: (95, 90)
+Punkt: (107, 99)
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (95, 90)
+(95, 90); (107, 99) ; komprimierteLänge: 1 ; 0
+Punkt: (107, 99)
+(107, 99); (95, 90) ; komprimierteLänge: 1 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (95, 90)
+(95, 90); (107, 99) ; komprimierteLänge: 1 ; 0
+Punkt: (107, 99)
+(107, 99); (95, 90) ; komprimierteLänge: 1 ; 0
+
+ H-Edges:
+(72, 34); (76, 23)
+(60, 24); (63, 21)
+
+ G nach der Berechnung mit H
+Punkt: (60, 24)
+(60, 24); (63, 21) ; komprimierteLänge: 1 ; 0
+Punkt: (63, 21)
+(63, 21); (72, 34) ; komprimierteLänge: 2 ; 0
+Punkt: (72, 34)
+(72, 34); (76, 23) ; komprimierteLänge: 1 ; 0
+Punkt: (76, 23)
+(76, 23); (60, 24) ; komprimierteLänge: 4 ; 0
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (60, 24)
+(60, 24); (63, 21) ; komprimierteLänge: 1 ; 0
+(60, 24); (72, 34) ; komprimierteLänge: 1 ; 0
+Punkt: (63, 21)
+(63, 21); (72, 34) ; komprimierteLänge: 2 ; 0
+Punkt: (72, 34)
+(72, 34); (76, 23) ; komprimierteLänge: 1 ; 0
+(72, 34); (60, 24) ; komprimierteLänge: 1 ; 0
+Punkt: (76, 23)
+(76, 23); (60, 24) ; komprimierteLänge: 4 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (60, 24)
+(60, 24); (63, 21) ; komprimierteLänge: 1 ; 0
+(60, 24); (72, 34) ; komprimierteLänge: 1 ; 0
+Punkt: (63, 21)
+(63, 21); (72, 34) ; komprimierteLänge: 2 ; 0
+Punkt: (72, 34)
+(72, 34); (76, 23) ; komprimierteLänge: 1 ; 0
+(72, 34); (60, 24) ; komprimierteLänge: 1 ; 0
+Punkt: (76, 23)
+(76, 23); (60, 24) ; komprimierteLänge: 4 ; 0
+
+ H-Edges:
+(28, 25); (23, 28)
+(22, 10); (18, 5)
+
+ G nach der Berechnung mit H
+Punkt: (18, 5)
+(18, 5); (22, 10) ; komprimierteLänge: 1 ; 0
+Punkt: (22, 10)
+(22, 10); (18, 5) ; komprimierteLänge: 1 ; 0
+Punkt: (23, 28)
+(23, 28); (28, 25) ; komprimierteLänge: 1 ; 0
+Punkt: (28, 25)
+(28, 25); (23, 28) ; komprimierteLänge: 1 ; 0
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (18, 5)
+(18, 5); (22, 10) ; komprimierteLänge: 1 ; 0
+Punkt: (22, 10)
+(22, 10); (18, 5) ; komprimierteLänge: 1 ; 0
+(22, 10); (28, 25) ; komprimierteLänge: 1 ; 0
+Punkt: (23, 28)
+(23, 28); (28, 25) ; komprimierteLänge: 1 ; 0
+Punkt: (28, 25)
+(28, 25); (23, 28) ; komprimierteLänge: 1 ; 0
+(28, 25); (22, 10) ; komprimierteLänge: 1 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (18, 5)
+(18, 5); (22, 10) ; komprimierteLänge: 1 ; 0
+Punkt: (22, 10)
+(22, 10); (18, 5) ; komprimierteLänge: 1 ; 0
+(22, 10); (28, 25) ; komprimierteLänge: 1 ; 0
+Punkt: (23, 28)
+(23, 28); (28, 25) ; komprimierteLänge: 1 ; 0
+Punkt: (28, 25)
+(28, 25); (23, 28) ; komprimierteLänge: 1 ; 0
+(28, 25); (22, 10) ; komprimierteLänge: 1 ; 0
+
+ H-Edges:
+(14, 71); (20, 62)
+
+ G nach der Berechnung mit H
+Punkt: (3, 58)
+Punkt: (14, 71)
+(14, 71); (20, 62) ; komprimierteLänge: 1 ; 0
+Punkt: (20, 62)
+(20, 62); (14, 71) ; komprimierteLänge: 1 ; 0
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (3, 58)
+(3, 58); (14, 71) ; komprimierteLänge: 1 ; 0
+Punkt: (14, 71)
+(14, 71); (20, 62) ; komprimierteLänge: 1 ; 0
+(14, 71); (3, 58) ; komprimierteLänge: 1 ; 0
+Punkt: (20, 62)
+(20, 62); (14, 71) ; komprimierteLänge: 1 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (3, 58)
+(3, 58); (14, 71) ; komprimierteLänge: 1 ; 0
+Punkt: (14, 71)
+(14, 71); (20, 62) ; komprimierteLänge: 1 ; 0
+(14, 71); (3, 58) ; komprimierteLänge: 1 ; 0
+Punkt: (20, 62)
+(20, 62); (14, 71) ; komprimierteLänge: 1 ; 0
+
+ H-Edges:
+(14, 71); (20, 62)
+(12, 90); (22, 95)
+
+ G nach der Berechnung mit H
+Punkt: (12, 90)
+(12, 90); (22, 95) ; komprimierteLänge: 1 ; 0
+Punkt: (14, 71)
+(14, 71); (20, 62) ; komprimierteLänge: 1 ; 0
+Punkt: (20, 62)
+(20, 62); (14, 71) ; komprimierteLänge: 3 ; 0
+Punkt: (22, 95)
+(22, 95); (12, 90) ; komprimierteLänge: 1 ; 0
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (12, 90)
+(12, 90); (22, 95) ; komprimierteLänge: 1 ; 0
+(12, 90); (14, 71) ; komprimierteLänge: 1 ; 0
+Punkt: (14, 71)
+(14, 71); (20, 62) ; komprimierteLänge: 1 ; 0
+(14, 71); (12, 90) ; komprimierteLänge: 1 ; 0
+Punkt: (20, 62)
+(20, 62); (14, 71) ; komprimierteLänge: 3 ; 0
+Punkt: (22, 95)
+(22, 95); (12, 90) ; komprimierteLänge: 1 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (12, 90)
+(12, 90); (22, 95) ; komprimierteLänge: 1 ; 0
+(12, 90); (14, 71) ; komprimierteLänge: 1 ; 0
+Punkt: (14, 71)
+(14, 71); (20, 62) ; komprimierteLänge: 1 ; 0
+(14, 71); (12, 90) ; komprimierteLänge: 1 ; 0
+Punkt: (20, 62)
+(20, 62); (14, 71) ; komprimierteLänge: 3 ; 0
+Punkt: (22, 95)
+(22, 95); (12, 90) ; komprimierteLänge: 1 ; 0
+
+ H-Edges:
+(112, 64); (116, 65)
+
+ G nach der Berechnung mit H
+Punkt: (98, 50)
+Punkt: (112, 64)
+(112, 64); (116, 65) ; komprimierteLänge: 1 ; 0
+Punkt: (116, 65)
+(116, 65); (112, 64) ; komprimierteLänge: 1 ; 0
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (98, 50)
+(98, 50); (112, 64) ; komprimierteLänge: 1 ; 0
+Punkt: (112, 64)
+(112, 64); (116, 65) ; komprimierteLänge: 1 ; 0
+(112, 64); (98, 50) ; komprimierteLänge: 1 ; 0
+Punkt: (116, 65)
+(116, 65); (112, 64) ; komprimierteLänge: 1 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (98, 50)
+(98, 50); (112, 64) ; komprimierteLänge: 1 ; 0
+Punkt: (112, 64)
+(112, 64); (116, 65) ; komprimierteLänge: 1 ; 0
+(112, 64); (98, 50) ; komprimierteLänge: 1 ; 0
+Punkt: (116, 65)
+(116, 65); (112, 64) ; komprimierteLänge: 1 ; 0
+
+ H-Edges:
+(111, 24); (119, 33)
+(111, 4); (107, 0)
+
+ G nach der Berechnung mit H
+Punkt: (107, 0)
+(107, 0); (111, 4) ; komprimierteLänge: 1 ; 0
+Punkt: (111, 4)
+(111, 4); (107, 0) ; komprimierteLänge: 1 ; 0
+Punkt: (111, 24)
+(111, 24); (119, 33) ; komprimierteLänge: 1 ; 0
+Punkt: (119, 33)
+(119, 33); (111, 24) ; komprimierteLänge: 1 ; 0
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (107, 0)
+(107, 0); (111, 4) ; komprimierteLänge: 1 ; 0
+Punkt: (111, 4)
+(111, 4); (107, 0) ; komprimierteLänge: 1 ; 0
+(111, 4); (111, 24) ; komprimierteLänge: 1 ; 0
+Punkt: (111, 24)
+(111, 24); (119, 33) ; komprimierteLänge: 1 ; 0
+(111, 24); (111, 4) ; komprimierteLänge: 1 ; 0
+Punkt: (119, 33)
+(119, 33); (111, 24) ; komprimierteLänge: 1 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (107, 0)
+(107, 0); (111, 4) ; komprimierteLänge: 1 ; 0
+Punkt: (111, 4)
+(111, 4); (107, 0) ; komprimierteLänge: 1 ; 0
+(111, 4); (111, 24) ; komprimierteLänge: 1 ; 0
+Punkt: (111, 24)
+(111, 24); (119, 33) ; komprimierteLänge: 1 ; 0
+(111, 24); (111, 4) ; komprimierteLänge: 1 ; 0
+Punkt: (119, 33)
+(119, 33); (111, 24) ; komprimierteLänge: 1 ; 0
+
+ H-Edges:
+(95, 90); (107, 99)
+
+ G nach der Berechnung mit H
+Punkt: (91, 70)
+Punkt: (95, 90)
+(95, 90); (107, 99) ; komprimierteLänge: 1 ; 0
+Punkt: (107, 99)
+(107, 99); (95, 90) ; komprimierteLänge: 1 ; 0
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (91, 70)
+(91, 70); (95, 90) ; komprimierteLänge: 1 ; 0
+Punkt: (95, 90)
+(95, 90); (107, 99) ; komprimierteLänge: 1 ; 0
+(95, 90); (91, 70) ; komprimierteLänge: 1 ; 0
+Punkt: (107, 99)
+(107, 99); (95, 90) ; komprimierteLänge: 1 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (91, 70)
+(91, 70); (95, 90) ; komprimierteLänge: 1 ; 0
+Punkt: (95, 90)
+(95, 90); (107, 99) ; komprimierteLänge: 1 ; 0
+(95, 90); (91, 70) ; komprimierteLänge: 1 ; 0
+Punkt: (107, 99)
+(107, 99); (95, 90) ; komprimierteLänge: 1 ; 0
+
+ H-Edges:
+(72, 34); (76, 23)
+
+ G nach der Berechnung mit H
+Punkt: (72, 34)
+(72, 34); (76, 23) ; komprimierteLänge: 1 ; 0
+Punkt: (76, 23)
+(76, 23); (72, 34) ; komprimierteLänge: 5 ; 0
+Punkt: (77, 54)
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (72, 34)
+(72, 34); (76, 23) ; komprimierteLänge: 1 ; 0
+(72, 34); (77, 54) ; komprimierteLänge: 1 ; 0
+Punkt: (76, 23)
+(76, 23); (72, 34) ; komprimierteLänge: 5 ; 0
+Punkt: (77, 54)
+(77, 54); (72, 34) ; komprimierteLänge: 1 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (72, 34)
+(72, 34); (76, 23) ; komprimierteLänge: 1 ; 0
+(72, 34); (77, 54) ; komprimierteLänge: 1 ; 0
+Punkt: (76, 23)
+(76, 23); (72, 34) ; komprimierteLänge: 5 ; 0
+Punkt: (77, 54)
+(77, 54); (72, 34) ; komprimierteLänge: 1 ; 0
+
+ H-Edges:
+(98, 50); (112, 64)
+(91, 70); (95, 90)
+
+ G nach der Berechnung mit H
+Punkt: (91, 70)
+(91, 70); (95, 90) ; komprimierteLänge: 1 ; 0
+Punkt: (95, 90)
+(95, 90); (91, 70) ; komprimierteLänge: 3 ; 0
+Punkt: (98, 50)
+(98, 50); (112, 64) ; komprimierteLänge: 1 ; 0
+Punkt: (112, 64)
+(112, 64); (98, 50) ; komprimierteLänge: 3 ; 0
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (91, 70)
+(91, 70); (95, 90) ; komprimierteLänge: 1 ; 0
+(91, 70); (98, 50) ; komprimierteLänge: 1 ; 0
+Punkt: (95, 90)
+(95, 90); (91, 70) ; komprimierteLänge: 3 ; 0
+Punkt: (98, 50)
+(98, 50); (112, 64) ; komprimierteLänge: 1 ; 0
+(98, 50); (91, 70) ; komprimierteLänge: 1 ; 0
+Punkt: (112, 64)
+(112, 64); (98, 50) ; komprimierteLänge: 3 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (91, 70)
+(91, 70); (95, 90) ; komprimierteLänge: 1 ; 0
+(91, 70); (98, 50) ; komprimierteLänge: 1 ; 0
+Punkt: (95, 90)
+(95, 90); (91, 70) ; komprimierteLänge: 3 ; 0
+Punkt: (98, 50)
+(98, 50); (112, 64) ; komprimierteLänge: 1 ; 0
+(98, 50); (91, 70) ; komprimierteLänge: 1 ; 0
+Punkt: (112, 64)
+(112, 64); (98, 50) ; komprimierteLänge: 3 ; 0
+
+ H-Edges:
+(91, 70); (95, 90)
+(77, 54); (72, 34)
+
+ G nach der Berechnung mit H
+Punkt: (72, 34)
+(72, 34); (77, 54) ; komprimierteLänge: 7 ; 0
+Punkt: (77, 54)
+(77, 54); (72, 34) ; komprimierteLänge: 1 ; 0
+Punkt: (91, 70)
+(91, 70); (95, 90) ; komprimierteLänge: 1 ; 0
+Punkt: (95, 90)
+(95, 90); (91, 70) ; komprimierteLänge: 9 ; 0
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (72, 34)
+(72, 34); (77, 54) ; komprimierteLänge: 7 ; 0
+Punkt: (77, 54)
+(77, 54); (72, 34) ; komprimierteLänge: 1 ; 0
+(77, 54); (91, 70) ; komprimierteLänge: 1 ; 0
+Punkt: (91, 70)
+(91, 70); (95, 90) ; komprimierteLänge: 1 ; 0
+(91, 70); (77, 54) ; komprimierteLänge: 1 ; 0
+Punkt: (95, 90)
+(95, 90); (91, 70) ; komprimierteLänge: 9 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (72, 34)
+(72, 34); (77, 54) ; komprimierteLänge: 7 ; 0
+Punkt: (77, 54)
+(77, 54); (72, 34) ; komprimierteLänge: 1 ; 0
+(77, 54); (91, 70) ; komprimierteLänge: 1 ; 0
+Punkt: (91, 70)
+(91, 70); (95, 90) ; komprimierteLänge: 1 ; 0
+(91, 70); (77, 54) ; komprimierteLänge: 1 ; 0
+Punkt: (95, 90)
+(95, 90); (91, 70) ; komprimierteLänge: 9 ; 0
+
+ H-Edges:
+
+ G nach der Berechnung mit H
+Punkt: (32, 116)
+Punkt: (54, 117)
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (32, 116)
+(32, 116); (54, 117) ; komprimierteLänge: 1 ; 0
+Punkt: (54, 117)
+(54, 117); (32, 116) ; komprimierteLänge: 1 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (32, 116)
+(32, 116); (54, 117) ; komprimierteLänge: 1 ; 0
+Punkt: (54, 117)
+(54, 117); (32, 116) ; komprimierteLänge: 1 ; 0
+
+ H-Edges:
+(32, 116); (54, 117)
+(22, 95); (12, 90)
+
+ G nach der Berechnung mit H
+Punkt: (12, 90)
+(12, 90); (22, 95) ; komprimierteLänge: 7 ; 0
+Punkt: (22, 95)
+(22, 95); (12, 90) ; komprimierteLänge: 1 ; 0
+Punkt: (32, 116)
+(32, 116); (54, 117) ; komprimierteLänge: 1 ; 0
+Punkt: (54, 117)
+(54, 117); (32, 116) ; komprimierteLänge: 1 ; 0
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (12, 90)
+(12, 90); (22, 95) ; komprimierteLänge: 7 ; 0
+Punkt: (22, 95)
+(22, 95); (12, 90) ; komprimierteLänge: 1 ; 0
+(22, 95); (32, 116) ; komprimierteLänge: 1 ; 0
+Punkt: (32, 116)
+(32, 116); (54, 117) ; komprimierteLänge: 1 ; 0
+(32, 116); (22, 95) ; komprimierteLänge: 1 ; 0
+Punkt: (54, 117)
+(54, 117); (32, 116) ; komprimierteLänge: 1 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (12, 90)
+(12, 90); (22, 95) ; komprimierteLänge: 7 ; 0
+Punkt: (22, 95)
+(22, 95); (12, 90) ; komprimierteLänge: 1 ; 0
+(22, 95); (32, 116) ; komprimierteLänge: 1 ; 0
+Punkt: (32, 116)
+(32, 116); (54, 117) ; komprimierteLänge: 1 ; 0
+(32, 116); (22, 95) ; komprimierteLänge: 1 ; 0
+Punkt: (54, 117)
+(54, 117); (32, 116) ; komprimierteLänge: 1 ; 0
+
+ H-Edges:
+(75, 105); (82, 111)
+(54, 117); (32, 116)
+
+ G nach der Berechnung mit H
+Punkt: (32, 116)
+(32, 116); (54, 117) ; komprimierteLänge: 11 ; 0
+Punkt: (54, 117)
+(54, 117); (32, 116) ; komprimierteLänge: 1 ; 0
+Punkt: (75, 105)
+(75, 105); (82, 111) ; komprimierteLänge: 1 ; 0
+Punkt: (82, 111)
+(82, 111); (75, 105) ; komprimierteLänge: 1 ; 0
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (32, 116)
+(32, 116); (54, 117) ; komprimierteLänge: 11 ; 0
+Punkt: (54, 117)
+(54, 117); (32, 116) ; komprimierteLänge: 1 ; 0
+(54, 117); (75, 105) ; komprimierteLänge: 1 ; 0
+Punkt: (75, 105)
+(75, 105); (82, 111) ; komprimierteLänge: 1 ; 0
+(75, 105); (54, 117) ; komprimierteLänge: 1 ; 0
+Punkt: (82, 111)
+(82, 111); (75, 105) ; komprimierteLänge: 1 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (32, 116)
+(32, 116); (54, 117) ; komprimierteLänge: 11 ; 0
+Punkt: (54, 117)
+(54, 117); (32, 116) ; komprimierteLänge: 1 ; 0
+(54, 117); (75, 105) ; komprimierteLänge: 1 ; 0
+Punkt: (75, 105)
+(75, 105); (82, 111) ; komprimierteLänge: 1 ; 0
+(75, 105); (54, 117) ; komprimierteLänge: 1 ; 0
+Punkt: (82, 111)
+(82, 111); (75, 105) ; komprimierteLänge: 1 ; 0
+
+ H-Edges:
+(95, 90); (107, 99)
+(82, 111); (75, 105)
+
+ G nach der Berechnung mit H
+Punkt: (75, 105)
+(75, 105); (82, 111) ; komprimierteLänge: 15 ; 0
+Punkt: (82, 111)
+(82, 111); (75, 105) ; komprimierteLänge: 1 ; 0
+Punkt: (95, 90)
+(95, 90); (107, 99) ; komprimierteLänge: 1 ; 0
+Punkt: (107, 99)
+(107, 99); (95, 90) ; komprimierteLänge: 19 ; 0
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (75, 105)
+(75, 105); (82, 111) ; komprimierteLänge: 15 ; 0
+Punkt: (82, 111)
+(82, 111); (75, 105) ; komprimierteLänge: 1 ; 0
+(82, 111); (95, 90) ; komprimierteLänge: 1 ; 0
+Punkt: (95, 90)
+(95, 90); (107, 99) ; komprimierteLänge: 1 ; 0
+(95, 90); (82, 111) ; komprimierteLänge: 1 ; 0
+Punkt: (107, 99)
+(107, 99); (95, 90) ; komprimierteLänge: 19 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (75, 105)
+(75, 105); (82, 111) ; komprimierteLänge: 15 ; 0
+Punkt: (82, 111)
+(82, 111); (75, 105) ; komprimierteLänge: 1 ; 0
+(82, 111); (95, 90) ; komprimierteLänge: 1 ; 0
+Punkt: (95, 90)
+(95, 90); (107, 99) ; komprimierteLänge: 1 ; 0
+(95, 90); (82, 111) ; komprimierteLänge: 1 ; 0
+Punkt: (107, 99)
+(107, 99); (95, 90) ; komprimierteLänge: 19 ; 0
+
+ H-Edges:
+(82, 111); (95, 90)
+(119, 33); (111, 24)
+(98, 50); (91, 70)
+
+ G nach der Berechnung mit H
+Punkt: (82, 111)
+(82, 111); (95, 90) ; komprimierteLänge: 1 ; 0
+Punkt: (91, 70)
+(91, 70); (82, 111) ; komprimierteLänge: 28 ; 0
+Punkt: (95, 90)
+(95, 90); (98, 50) ; komprimierteLänge: 8 ; 0
+Punkt: (98, 50)
+(98, 50); (91, 70) ; komprimierteLänge: 1 ; 0
+Punkt: (111, 24)
+(111, 24); (119, 33) ; komprimierteLänge: 5 ; 0
+Punkt: (119, 33)
+(119, 33); (111, 24) ; komprimierteLänge: 1 ; 0
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (82, 111)
+(82, 111); (95, 90) ; komprimierteLänge: 1 ; 0
+Punkt: (91, 70)
+(91, 70); (82, 111) ; komprimierteLänge: 28 ; 0
+Punkt: (95, 90)
+(95, 90); (98, 50) ; komprimierteLänge: 8 ; 0
+Punkt: (98, 50)
+(98, 50); (91, 70) ; komprimierteLänge: 1 ; 0
+(98, 50); (119, 33) ; komprimierteLänge: 1 ; 0
+Punkt: (111, 24)
+(111, 24); (119, 33) ; komprimierteLänge: 5 ; 0
+Punkt: (119, 33)
+(119, 33); (111, 24) ; komprimierteLänge: 1 ; 0
+(119, 33); (98, 50) ; komprimierteLänge: 1 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (82, 111)
+(82, 111); (95, 90) ; komprimierteLänge: 1 ; 0
+Punkt: (91, 70)
+(91, 70); (82, 111) ; komprimierteLänge: 28 ; 0
+Punkt: (95, 90)
+(95, 90); (98, 50) ; komprimierteLänge: 8 ; 0
+Punkt: (98, 50)
+(98, 50); (91, 70) ; komprimierteLänge: 1 ; 0
+(98, 50); (119, 33) ; komprimierteLänge: 1 ; 0
+Punkt: (111, 24)
+(111, 24); (119, 33) ; komprimierteLänge: 5 ; 0
+Punkt: (119, 33)
+(119, 33); (111, 24) ; komprimierteLänge: 1 ; 0
+(119, 33); (98, 50) ; komprimierteLänge: 1 ; 0
+
+ H-Edges:
+(82, 111); (95, 90)
+(77, 54); (91, 70)
+
+ G nach der Berechnung mit H
+Punkt: (56, 72)
+Punkt: (77, 54)
+(77, 54); (91, 70) ; komprimierteLänge: 1 ; 0
+Punkt: (82, 111)
+(82, 111); (95, 90) ; komprimierteLänge: 1 ; 0
+Punkt: (91, 70)
+(91, 70); (82, 111) ; komprimierteLänge: 18 ; 0
+Punkt: (95, 90)
+(95, 90); (77, 54) ; komprimierteLänge: 26 ; 0
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (56, 72)
+(56, 72); (77, 54) ; komprimierteLänge: 1 ; 0
+Punkt: (77, 54)
+(77, 54); (91, 70) ; komprimierteLänge: 1 ; 0
+(77, 54); (56, 72) ; komprimierteLänge: 1 ; 0
+Punkt: (82, 111)
+(82, 111); (95, 90) ; komprimierteLänge: 1 ; 0
+Punkt: (91, 70)
+(91, 70); (82, 111) ; komprimierteLänge: 18 ; 0
+Punkt: (95, 90)
+(95, 90); (77, 54) ; komprimierteLänge: 26 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (56, 72)
+(56, 72); (77, 54) ; komprimierteLänge: 1 ; 0
+Punkt: (77, 54)
+(77, 54); (91, 70) ; komprimierteLänge: 1 ; 0
+(77, 54); (56, 72) ; komprimierteLänge: 1 ; 0
+Punkt: (82, 111)
+(82, 111); (95, 90) ; komprimierteLänge: 1 ; 0
+Punkt: (91, 70)
+(91, 70); (82, 111) ; komprimierteLänge: 18 ; 0
+Punkt: (95, 90)
+(95, 90); (77, 54) ; komprimierteLänge: 26 ; 0
+
+ H-Edges:
+(56, 72); (77, 54)
+(60, 24); (72, 34)
+(28, 25); (22, 10)
+
+ G nach der Berechnung mit H
+Punkt: (22, 10)
+(22, 10); (28, 25) ; komprimierteLänge: 5 ; 0
+Punkt: (28, 25)
+(28, 25); (22, 10) ; komprimierteLänge: 1 ; 0
+Punkt: (56, 72)
+(56, 72); (77, 54) ; komprimierteLänge: 1 ; 0
+Punkt: (60, 24)
+(60, 24); (72, 34) ; komprimierteLänge: 1 ; 0
+Punkt: (72, 34)
+(72, 34); (56, 72) ; komprimierteLänge: 2 ; 0
+Punkt: (77, 54)
+(77, 54); (60, 24) ; komprimierteLänge: 44 ; 0
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (22, 10)
+(22, 10); (28, 25) ; komprimierteLänge: 5 ; 0
+Punkt: (28, 25)
+(28, 25); (22, 10) ; komprimierteLänge: 1 ; 0
+(28, 25); (60, 24) ; komprimierteLänge: 1 ; 0
+Punkt: (56, 72)
+(56, 72); (77, 54) ; komprimierteLänge: 1 ; 0
+Punkt: (60, 24)
+(60, 24); (72, 34) ; komprimierteLänge: 1 ; 0
+(60, 24); (28, 25) ; komprimierteLänge: 1 ; 0
+Punkt: (72, 34)
+(72, 34); (56, 72) ; komprimierteLänge: 2 ; 0
+Punkt: (77, 54)
+(77, 54); (60, 24) ; komprimierteLänge: 44 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (22, 10)
+(22, 10); (28, 25) ; komprimierteLänge: 5 ; 0
+Punkt: (28, 25)
+(28, 25); (22, 10) ; komprimierteLänge: 1 ; 0
+(28, 25); (60, 24) ; komprimierteLänge: 1 ; 0
+Punkt: (56, 72)
+(56, 72); (77, 54) ; komprimierteLänge: 1 ; 0
+Punkt: (60, 24)
+(60, 24); (72, 34) ; komprimierteLänge: 1 ; 0
+(60, 24); (28, 25) ; komprimierteLänge: 1 ; 0
+Punkt: (72, 34)
+(72, 34); (56, 72) ; komprimierteLänge: 2 ; 0
+Punkt: (77, 54)
+(77, 54); (60, 24) ; komprimierteLänge: 44 ; 0
+
+ H-Edges:
+(28, 25); (60, 24)
+(23, 28); (28, 25)
+(20, 62); (14, 71)
+
+ G nach der Berechnung mit H
+Punkt: (14, 71)
+(14, 71); (23, 28) ; komprimierteLänge: 39 ; 0
+Punkt: (20, 62)
+(20, 62); (14, 71) ; komprimierteLänge: 1 ; 0
+Punkt: (23, 28)
+(23, 28); (28, 25) ; komprimierteLänge: 1 ; 0
+Punkt: (28, 25)
+(28, 25); (60, 24) ; komprimierteLänge: 1 ; 0
+Punkt: (60, 24)
+(60, 24); (20, 62) ; komprimierteLänge: 14 ; 0
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (14, 71)
+(14, 71); (23, 28) ; komprimierteLänge: 39 ; 0
+Punkt: (20, 62)
+(20, 62); (14, 71) ; komprimierteLänge: 1 ; 0
+(20, 62); (23, 28) ; komprimierteLänge: 1 ; 0
+Punkt: (23, 28)
+(23, 28); (28, 25) ; komprimierteLänge: 1 ; 0
+(23, 28); (20, 62) ; komprimierteLänge: 1 ; 0
+Punkt: (28, 25)
+(28, 25); (60, 24) ; komprimierteLänge: 1 ; 0
+Punkt: (60, 24)
+(60, 24); (20, 62) ; komprimierteLänge: 14 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (14, 71)
+(14, 71); (23, 28) ; komprimierteLänge: 39 ; 0
+Punkt: (20, 62)
+(20, 62); (14, 71) ; komprimierteLänge: 1 ; 0
+(20, 62); (23, 28) ; komprimierteLänge: 1 ; 0
+Punkt: (23, 28)
+(23, 28); (28, 25) ; komprimierteLänge: 1 ; 0
+(23, 28); (20, 62) ; komprimierteLänge: 1 ; 0
+Punkt: (28, 25)
+(28, 25); (60, 24) ; komprimierteLänge: 1 ; 0
+Punkt: (60, 24)
+(60, 24); (20, 62) ; komprimierteLänge: 14 ; 0
+
+ H-Edges:
+(23, 28); (20, 62)
+(56, 72); (77, 54)
+(20, 62); (23, 28)
+
+ G nach der Berechnung mit H
+Punkt: (20, 62)
+(20, 62); (23, 28) ; komprimierteLänge: 1 ; 0
+(20, 62); (23, 28) ; komprimierteLänge: 40 ; 0
+Punkt: (23, 28)
+(23, 28); (20, 62) ; komprimierteLänge: 1 ; 0
+(23, 28); (56, 72) ; komprimierteLänge: 5 ; 0
+Punkt: (56, 72)
+(56, 72); (77, 54) ; komprimierteLänge: 1 ; 0
+Punkt: (77, 54)
+(77, 54); (20, 62) ; komprimierteLänge: 10 ; 0
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (20, 62)
+(20, 62); (23, 28) ; komprimierteLänge: 1 ; 0
+(20, 62); (23, 28) ; komprimierteLänge: 40 ; 0
+(20, 62); (56, 72) ; komprimierteLänge: 1 ; 0
+Punkt: (23, 28)
+(23, 28); (20, 62) ; komprimierteLänge: 1 ; 0
+(23, 28); (56, 72) ; komprimierteLänge: 5 ; 0
+Punkt: (56, 72)
+(56, 72); (77, 54) ; komprimierteLänge: 1 ; 0
+(56, 72); (20, 62) ; komprimierteLänge: 1 ; 0
+Punkt: (77, 54)
+(77, 54); (20, 62) ; komprimierteLänge: 10 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (20, 62)
+(20, 62); (23, 28) ; komprimierteLänge: 1 ; 0
+(20, 62); (23, 28) ; komprimierteLänge: 40 ; 0
+(20, 62); (56, 72) ; komprimierteLänge: 1 ; 0
+Punkt: (23, 28)
+(23, 28); (20, 62) ; komprimierteLänge: 1 ; 0
+(23, 28); (56, 72) ; komprimierteLänge: 5 ; 0
+Punkt: (56, 72)
+(56, 72); (77, 54) ; komprimierteLänge: 1 ; 0
+(56, 72); (20, 62) ; komprimierteLänge: 1 ; 0
+Punkt: (77, 54)
+(77, 54); (20, 62) ; komprimierteLänge: 10 ; 0
+
+ H-Edges:
+(23, 28); (20, 62)
+(75, 105); (54, 117)
+(56, 72); (77, 54)
+
+ G nach der Berechnung mit H
+Punkt: (20, 62)
+(20, 62); (23, 28) ; komprimierteLänge: 40 ; 0
+Punkt: (23, 28)
+(23, 28); (20, 62) ; komprimierteLänge: 1 ; 0
+Punkt: (54, 117)
+(54, 117); (56, 72) ; komprimierteLänge: 6 ; 0
+Punkt: (56, 72)
+(56, 72); (77, 54) ; komprimierteLänge: 1 ; 0
+Punkt: (75, 105)
+(75, 105); (54, 117) ; komprimierteLänge: 1 ; 0
+Punkt: (77, 54)
+(77, 54); (75, 105) ; komprimierteLänge: 4 ; 0
+
+ G nach dem Einfügen der Batch Edges
+Punkt: (20, 62)
+(20, 62); (23, 28) ; komprimierteLänge: 40 ; 0
+Punkt: (23, 28)
+(23, 28); (20, 62) ; komprimierteLänge: 1 ; 0
+Punkt: (54, 117)
+(54, 117); (56, 72) ; komprimierteLänge: 6 ; 0
+Punkt: (56, 72)
+(56, 72); (77, 54) ; komprimierteLänge: 1 ; 0
+(56, 72); (75, 105) ; komprimierteLänge: 1 ; 0
+Punkt: (75, 105)
+(75, 105); (54, 117) ; komprimierteLänge: 1 ; 0
+(75, 105); (56, 72) ; komprimierteLänge: 1 ; 0
+Punkt: (77, 54)
+(77, 54); (75, 105) ; komprimierteLänge: 4 ; 0
+
+ G nach der Berechnung der neuen Startkanten und der Berechnung der relativen Läufe
+Punkt: (20, 62)
+(20, 62); (23, 28) ; komprimierteLänge: 40 ; 0
+Punkt: (23, 28)
+(23, 28); (20, 62) ; komprimierteLänge: 1 ; 0
+Punkt: (54, 117)
+(54, 117); (56, 72) ; komprimierteLänge: 6 ; 0
+Punkt: (56, 72)
+(56, 72); (77, 54) ; komprimierteLänge: 1 ; 0
+(56, 72); (75, 105) ; komprimierteLänge: 1 ; 0
+Punkt: (75, 105)
+(75, 105); (54, 117) ; komprimierteLänge: 1 ; 0
+(75, 105); (56, 72) ; komprimierteLänge: 1 ; 0
+Punkt: (77, 54)
+(77, 54); (75, 105) ; komprimierteLänge: 4 ; 0

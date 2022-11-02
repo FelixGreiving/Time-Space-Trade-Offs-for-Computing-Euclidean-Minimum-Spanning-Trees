@@ -1,0 +1,45 @@
+
+ S-Netz zu Lauf: 1
+
+
+ S-Netz zu Lauf: 2
+
+
+ S-Netz zu Lauf: 3
+
+
+ S-Netz zu Lauf: 4
+
+
+ S-Netz zu Lauf: 5
+
+
+ S-Netz zu Lauf: 6
+
+
+ S-Netz zu Lauf: 7
+
+
+ S-Netz zu Lauf: 8
+
+(12, 44); (33, 40)
+
+ S-Netz zu Lauf: 9
+
+(12, 44); (33, 40)
+(44, 86); (61, 68)
+(61, 68); (44, 86)
+(98, 104); (118, 105)
+
+ S-Netz zu Lauf: 10
+
+(12, 44); (33, 40)
+(44, 86); (61, 68)
+(98, 104); (118, 105)
+(61, 68); (44, 86)
+
+ S-Netz zu Lauf: 11
+
+(12, 44); (30, 82)
+(79, 76); (87, 78)
+(99, 10); (77, 33)

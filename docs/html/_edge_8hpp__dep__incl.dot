@@ -1,0 +1,33 @@
+digraph "include/Edge.hpp"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="include/Edge.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="src/Edge.cpp",height=0.2,width=0.4,color="black",URL="$_edge_8cpp.html",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="include/Graph.hpp",height=0.2,width=0.4,color="black",URL="$_graph_8hpp.html",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="src/Graph.cpp",height=0.2,width=0.4,color="black",URL="$_graph_8cpp.html",tooltip=" "];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="include/EMST.hpp",height=0.2,width=0.4,color="black",URL="$_e_m_s_t_8hpp.html",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="src/EMST.cpp",height=0.2,width=0.4,color="black",URL="$_e_m_s_t_8cpp.html",tooltip=" "];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="include/RNG.hpp",height=0.2,width=0.4,color="black",URL="$_r_n_g_8hpp.html",tooltip=" "];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="src/PointGeneration.cpp",height=0.2,width=0.4,color="black",URL="$_point_generation_8cpp.html",tooltip=" "];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="src/RNG.cpp",height=0.2,width=0.4,color="black",URL="$_r_n_g_8cpp.html",tooltip=" "];
+  Node7 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="src/starterEMST.cpp",height=0.2,width=0.4,color="black",URL="$starter_e_m_s_t_8cpp.html",tooltip=" "];
+  Node7 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="include/utils.hpp",height=0.2,width=0.4,color="black",URL="$utils_8hpp.html",tooltip=" "];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="src/utils.cpp",height=0.2,width=0.4,color="black",URL="$utils_8cpp.html",tooltip=" "];
+  Node11 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

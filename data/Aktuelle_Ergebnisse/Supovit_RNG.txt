@@ -1,0 +1,11 @@
+Punkt: (109, 17) und assoziierter Punkt: (109, 17)
+
+Punkt: (83, 14) und assoziierter Punkt: (83, 14)
+
+(83, 14); (109, 17)
+Punkt: (82, 22) und assoziierter Punkt: (82, 22)
+
+(82, 22); (83, 14)
+Punkt: (74, 13) und assoziierter Punkt: (74, 13)
+
+(74, 13); (83, 14)
