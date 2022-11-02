@@ -37,10 +37,11 @@ Eine Kante wird als (x,y); (x',y'); komprimierteLänge: a; b gespeichert. Dabei 
 - cgal
 - boost
 - QT5
+- python3
 - Google Test Framework wird über CMake geladen
 
 ## Installation unter Ubuntu ab Version 22.4
-- ´ $ sudo apt install build-essential cmake libcgal-dev libboost-all-dev qtbase5-dev qt5-qmake´
+- ` $ sudo apt install build-essential cmake libcgal-dev libboost-all-dev qtbase5-dev qt5-qmake python3`
 
 ## Installation unter Ubuntu bis Version 22.4
-- ´ $ sudo apt install build-essential cmake libcgal-dev libboost-all-dev qt5-default ´
+- ` $ sudo apt install build-essential cmake libcgal-dev libboost-all-dev qt5-default python3`

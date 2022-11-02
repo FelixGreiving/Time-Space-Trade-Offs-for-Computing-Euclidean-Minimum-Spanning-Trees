@@ -115,8 +115,8 @@ class EMSTTest : public ::testing::Test{
     Point parsePoint(std::string &point){
         point.erase(remove_if(point.begin(), point.end(), isspace), point.end());
 
-        int x = std::stoi(point.substr(1, point.find(",")));
-        int y = std::stoi(point.substr(point.find(",") + 1, point.size() - 1));
+        double x = std::stod(point.substr(1, point.find(",")));
+        double y = std::stod(point.substr(point.find(",") + 1, point.size() - 1));
 
         Point p{x, y};
         return p;
@@ -159,7 +159,7 @@ class EMSTTest : public ::testing::Test{
         auto pos4 = p5.find(";");
 
         int comprLength = std::stoi(p5.substr(1, pos4));
-        int again = std::stoi(p5.substr(pos4+1));
+        bool again = static_cast<bool>(std::stoi(p5.substr(pos4+1)));
 
         Edge edge{parsePoint(p1), parsePoint(p3), comprLength, again};
         return edge;
