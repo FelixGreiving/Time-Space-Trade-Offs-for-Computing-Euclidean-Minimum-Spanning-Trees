@@ -1,9 +1,9 @@
 #include "EMSTTest.hpp"
 
-
 TEST_F(EMSTTest, Beispiel_2_EMST){
 
-  std::ifstream in("data/Beispiele/EMST_Beispiel_2/EMST_Beispiel_2.txt");
+  // std::ifstream in("data/Beispiele/EMST_Beispiel_2/EMST_Beispiel_2.txt");
+  std::ifstream in(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_2/EMST_Beispiel_2.txt"});
   std::istream_iterator<Point> begin(in);
   std::istream_iterator<Point> end;
   std::vector<Point> inputPoints(begin, end);
@@ -625,31 +625,31 @@ TEST_F(EMSTTest, Beispiel_2_EMST){
   init(inputPoints, 30);
   
   // Prüfe, ob die Kanten des EMSTs korrekt und in der richtigen Reihenfolge berechnet werden
-  std::vector<Edge> calculatedEMST_30 = parseEdgeFile("data/Beispiele/EMST_Beispiel_2/O(30)/Euklidischer_Minimaler_Spannbaum.txt");
-  // std::vector<Edge> calculatedEMST_30 = parseEdgeFile("data/Aktuelle_Ergebnisse/Euklidischer_Minimaler_Spannbaum.txt");
+  // std::vector<Edge> calculatedEMST_30 = parseEdgeFile(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_2/O(30)/Euklidischer_Minimaler_Spannbaum.txt"});
+  std::vector<Edge> calculatedEMST_30 = parseEdgeFile(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/Euklidischer_Minimaler_Spannbaum.txt"});
   EXPECT_EQ(expectedEMST, calculatedEMST_30);
 
   // Prüfe, ob alle Kanten des RNGs korrekt und in der richtigen Reihenfolge berechnet werden
-  std::vector<Edge> calculatedRNG_30 = parseEdgeFile("data/Beispiele/EMST_Beispiel_2/O(30)/Relativer_Nachbarschaftsgraph.txt");
-  // std::vector<Edge> calculatedRNG_30 = parseEdgeFile("data/Aktuelle_Ergebnisse/Relativer_Nachbarschaftsgraph.txt");
+  // std::vector<Edge> calculatedRNG_30 = parseEdgeFile(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_2/O(30)/Relativer_Nachbarschaftsgraph.txt"});
+  std::vector<Edge> calculatedRNG_30 = parseEdgeFile(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/Relativer_Nachbarschaftsgraph.txt"});
   EXPECT_EQ(expectedRNG, calculatedRNG_30);
 
   // Prüfe, ob das S-Netz zum entstehenden RNG korrekt berechnet wurde
-  std::vector<Edge> calculatedSNet_30 = parseSNetBlock("data/Beispiele/EMST_Beispiel_2/O(30)/s-Netz.txt");
-  // std::vector<Edge> calculatedSNet_30 = parseSNetBlock("data/Aktuelle_Ergebnisse/s-Netz.txt");
+  // std::vector<Edge> calculatedSNet_30 = parseSNetBlock(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_2/O(30)/s-Netz.txt"});
+  std::vector<Edge> calculatedSNet_30 = parseSNetBlock(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/s-Netz.txt"});
   EXPECT_EQ(expectedSNet_30, calculatedSNet_30);
 
   // Prüfe, ob der Hilfsgraph G zum entstehenden RNG korrekt berechnet wurde
 
   // Prüfe, ob der Hilfsgraph G alle benötigten Kanten enthält
-  Graph calculatedG_30 = parseGBlock("data/Beispiele/EMST_Beispiel_2/O(30)/Hilfsgraph_G.txt");
-  // Graph calculatedG_30 = parseGBlock("data/Aktuelle_Ergebnisse/Hilfsgraph_G.txt");
+  // Graph calculatedG_30 = parseGBlock(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_2/O(30)/Hilfsgraph_G.txt"});
+  Graph calculatedG_30 = parseGBlock(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/Hilfsgraph_G.txt"});
   EXPECT_EQ(expectedG_30, calculatedG_30);
 
   // Prüfe, ob alle Kanten des Hilfsgraphs G den richtigen Nachfolger haben
 
-  std::vector<std::vector<Edge>> calculatedFaceCyclesOfG_30 = parseFaceCyclesOfG("data/Beispiele/EMST_Beispiel_2/O(30)/face_cycles_G.txt");
-  // std::vector<std::vector<Edge>> calculatedFaceCyclesOfG_30 = parseFaceCyclesOfG("data/Aktuelle_Ergebnisse/face_cycles_G.txt");
+  // std::vector<std::vector<Edge>> calculatedFaceCyclesOfG_30 = parseFaceCyclesOfG(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_2/O(30)/face_cycles_G.txt"});
+  std::vector<std::vector<Edge>> calculatedFaceCyclesOfG_30 = parseFaceCyclesOfG(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/face_cycles_G.txt"});
   EXPECT_EQ(expectedFaceCyclesOfG_30, calculatedFaceCyclesOfG_30);
 
 
@@ -657,33 +657,33 @@ TEST_F(EMSTTest, Beispiel_2_EMST){
   /*
   Teste die Berechnung für s=10, um den Sonderfall zu zeigen (also für ~O(log n) Speicher) 
   */
-  // init(inputPoints, 10);
+  init(inputPoints, 10);
   
   // Prüfe, ob die Kanten des EMSTs korrekt und in der richtigen Reihenfolge berechnet werden
-  std::vector<Edge> calculatedEMST_10 = parseEdgeFile("data/Beispiele/EMST_Beispiel_2/O(10)/Euklidischer_Minimaler_Spannbaum.txt");
-  // std::vector<Edge> calculatedEMST_10 = parseEdgeFile("data/Aktuelle_Ergebnisse/Euklidischer_Minimaler_Spannbaum.txt");
+  // std::vector<Edge> calculatedEMST_10 = parseEdgeFile(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_2/O(10)/Euklidischer_Minimaler_Spannbaum.txt"});
+  std::vector<Edge> calculatedEMST_10 = parseEdgeFile(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/Euklidischer_Minimaler_Spannbaum.txt"});
   EXPECT_EQ(expectedEMST, calculatedEMST_10);
 
   // Prüfe, ob alle Kanten des RNGs korrekt und in der richtigen Reihenfolge berechnet werden
-  std::vector<Edge> calculatedRNG_10 = parseEdgeFile("data/Beispiele/EMST_Beispiel_2/O(10)/Relativer_Nachbarschaftsgraph.txt");
-  // std::vector<Edge> calculatedRNG_10 = parseEdgeFile("data/Aktuelle_Ergebnisse/Relativer_Nachbarschaftsgraph.txt");
+  // std::vector<Edge> calculatedRNG_10 = parseEdgeFile(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_2/O(10)/Relativer_Nachbarschaftsgraph.txt"});
+  std::vector<Edge> calculatedRNG_10 = parseEdgeFile(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/Relativer_Nachbarschaftsgraph.txt"});
   EXPECT_EQ(expectedRNG, calculatedRNG_10);
 
   // Prüfe, ob das S-Netz zum entstehenden RNG korrekt berechnet wurde
-  std::vector<Edge> calculatedSNet_10 = parseSNetBlock("data/Beispiele/EMST_Beispiel_2/O(10)/s-Netz.txt");
-  // std::vector<Edge> calculatedSNet_10 = parseSNetBlock("data/Aktuelle_Ergebnisse/s-Netz.txt");
+  // std::vector<Edge> calculatedSNet_10 = parseSNetBlock(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_2/O(10)/s-Netz.txt"});
+  std::vector<Edge> calculatedSNet_10 = parseSNetBlock(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/s-Netz.txt"});
   EXPECT_EQ(expectedSNet_10, calculatedSNet_10);
 
   // Prüfe, ob der Hilfsgraph G zum entstehenden RNG korrekt berechnet wurde
 
   // Prüfe, ob der Hilfsgraph G alle benötigten Kanten enthält
-  Graph calculatedG_10 = parseGBlock("data/Beispiele/EMST_Beispiel_2/O(10)/Hilfsgraph_G.txt");
-  // Graph calculatedG_10 = parseGBlock("data/Aktuelle_Ergebnisse/Hilfsgraph_G.txt");
+  // Graph calculatedG_10 = parseGBlock(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_2/O(10)/Hilfsgraph_G.txt"});
+  Graph calculatedG_10 = parseGBlock(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/Hilfsgraph_G.txt"});
   EXPECT_EQ(expectedG_10, calculatedG_10);
 
   // Prüfe, ob alle Kanten des Hilfsgraphs G den richtigen Nachfolger haben
-  std::vector<std::vector<Edge>> calculatedFaceCyclesOfG_10 = parseFaceCyclesOfG("data/Beispiele/EMST_Beispiel_2/O(10)/face_cycles_G.txt");
-  // std::vector<std::vector<Edge>> calculatedFaceCyclesOfG_10 = parseFaceCyclesOfG("data/Aktuelle_Ergebnisse/face_cycles_G.txt");
+  // std::vector<std::vector<Edge>> calculatedFaceCyclesOfG_10 = parseFaceCyclesOfG(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_2/O(10)/face_cycles_G.txt"});
+  std::vector<std::vector<Edge>> calculatedFaceCyclesOfG_10 = parseFaceCyclesOfG(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/face_cycles_G.txt"});
   EXPECT_EQ(expectedFaceCyclesOfG_10, calculatedFaceCyclesOfG_10);
 
 
@@ -691,33 +691,33 @@ TEST_F(EMSTTest, Beispiel_2_EMST){
   /*
   Teste die Berechnung für s=1, also für O(1) Speicher 
   */
-  // init(inputPoints, 1);
+  init(inputPoints, 1);
   
   // Prüfe, ob die Kanten des EMSTs korrekt und in der richtigen Reihenfolge berechnet werden
-  std::vector<Edge> calculatedEMST_1 = parseEdgeFile("data/Beispiele/EMST_Beispiel_2/O(1)/Euklidischer_Minimaler_Spannbaum.txt");
-  // std::vector<Edge> calculatedEMST_1 = parseEdgeFile("data/Aktuelle_Ergebnisse/Euklidischer_Minimaler_Spannbaum.txt");
+  // std::vector<Edge> calculatedEMST_1 = parseEdgeFile(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_2/O(1)/Euklidischer_Minimaler_Spannbaum.txt"});
+  std::vector<Edge> calculatedEMST_1 = parseEdgeFile(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/Euklidischer_Minimaler_Spannbaum.txt"});
   EXPECT_EQ(expectedEMST, calculatedEMST_1);
 
   // Prüfe, ob alle Kanten des RNGs korrekt und in der richtigen Reihenfolge berechnet werden
-  std::vector<Edge> calculatedRNG_1 = parseEdgeFile("data/Beispiele/EMST_Beispiel_2/O(1)/Relativer_Nachbarschaftsgraph.txt");
-  // std::vector<Edge> calculatedRNG_1 = parseEdgeFile("data/Aktuelle_Ergebnisse/Relativer_Nachbarschaftsgraph.txt");
+  // std::vector<Edge> calculatedRNG_1 = parseEdgeFile(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_2/O(1)/Relativer_Nachbarschaftsgraph.txt"});
+  std::vector<Edge> calculatedRNG_1 = parseEdgeFile(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/Relativer_Nachbarschaftsgraph.txt"});
   EXPECT_EQ(expectedRNG, calculatedRNG_1);
 
   // Prüfe, ob das S-Netz zum entstehenden RNG korrekt berechnet wurde
-  std::vector<Edge> calculatedSNet_1 = parseSNetBlock("data/Beispiele/EMST_Beispiel_2/O(1)/s-Netz.txt");
-  // std::vector<Edge> calculatedSNet_1 = parseSNetBlock("data/Aktuelle_Ergebnisse/s-Netz.txt");
+  // std::vector<Edge> calculatedSNet_1 = parseSNetBlock(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_2/O(1)/s-Netz.txt"});
+  std::vector<Edge> calculatedSNet_1 = parseSNetBlock(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/s-Netz.txt"});
   EXPECT_EQ(expectedSNet_1, calculatedSNet_1);
 
   // Prüfe, ob der Hilfsgraph G zum entstehenden RNG korrekt berechnet wurde
 
   // Prüfe, ob der Hilfsgraph G alle benötigten Punkte und Kanten enthält
-  Graph calculatedG_1 = parseGBlock("data/Beispiele/EMST_Beispiel_2/O(1)/Hilfsgraph_G.txt");
-  // Graph calculatedG_1 = parseGBlock("data/Aktuelle_Ergebnisse/Hilfsgraph_G.txt");
+  // Graph calculatedG_1 = parseGBlock(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_2/O(1)/Hilfsgraph_G.txt"});
+  Graph calculatedG_1 = parseGBlock(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/Hilfsgraph_G.txt"});
   EXPECT_EQ(expectedG_1, calculatedG_1);
 
   // Prüfe, ob alle Kanten des Hilfsgraphs G den richtigen Nachfolger haben
-  std::vector<std::vector<Edge>> calculatedFaceCyclesOfG_1 = parseFaceCyclesOfG("data/Beispiele/EMST_Beispiel_2/O(1)/face_cycles_G.txt");
-  // std::vector<std::vector<Edge>> calculatedFaceCyclesOfG_1 = parseFaceCyclesOfG("data/Aktuelle_Ergebnisse/face_cycles_G.txt");
+  // std::vector<std::vector<Edge>> calculatedFaceCyclesOfG_1 = parseFaceCyclesOfG(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_2/O(1)/face_cycles_G.txt"});
+  std::vector<std::vector<Edge>> calculatedFaceCyclesOfG_1 = parseFaceCyclesOfG(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/face_cycles_G.txt"});
   EXPECT_EQ(expectedFaceCyclesOfG_1, calculatedFaceCyclesOfG_1);
 
 }
@@ -727,7 +727,7 @@ TEST_F(EMSTTest, Beispiel_2_EMST){
 
 TEST_F(EMSTTest, Beispiel_3_EMST){
 
-  std::ifstream in("data/Beispiele/EMST_Beispiel_3/EMST_Beispiel_3.txt");
+  std::ifstream in(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_3/EMST_Beispiel_3.txt"});
   std::istream_iterator<Point> begin(in);
   std::istream_iterator<Point> end;
   std::vector<Point> inputPoints(begin, end);
@@ -1492,31 +1492,31 @@ TEST_F(EMSTTest, Beispiel_3_EMST){
   init(inputPoints, 30);
   
   // Prüfe, ob die Kanten des EMSTs korrekt und in der richtigen Reihenfolge berechnet werden
-  // std::vector<Edge> calculatedEMST_30 = parseEdgeFile("data/Beispiele/EMST_Beispiel_3/O(30)/Euklidischer_Minimaler_Spannbaum.txt");
-  std::vector<Edge> calculatedEMST_30 = parseEdgeFile("data/Aktuelle_Ergebnisse/Euklidischer_Minimaler_Spannbaum.txt");
+  // std::vector<Edge> calculatedEMST_30 = parseEdgeFile(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_3/O(30)/Euklidischer_Minimaler_Spannbaum.txt"});
+  std::vector<Edge> calculatedEMST_30 = parseEdgeFile(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/Euklidischer_Minimaler_Spannbaum.txt"});
   EXPECT_EQ(expectedEMST, calculatedEMST_30);
 
   // Prüfe, ob alle Kanten des RNGs korrekt und in der richtigen Reihenfolge berechnet werden
-  // std::vector<Edge> calculatedRNG_30 = parseEdgeFile("data/Beispiele/EMST_Beispiel_3/O(30)/Relativer_Nachbarschaftsgraph.txt");
-  std::vector<Edge> calculatedRNG_30 = parseEdgeFile("data/Aktuelle_Ergebnisse/Relativer_Nachbarschaftsgraph.txt");
+  // std::vector<Edge> calculatedRNG_30 = parseEdgeFile(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_3/O(30)/Relativer_Nachbarschaftsgraph.txt"});
+  std::vector<Edge> calculatedRNG_30 = parseEdgeFile(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/Relativer_Nachbarschaftsgraph.txt"});
   EXPECT_EQ(expectedRNG, calculatedRNG_30);
 
   // Prüfe, ob das S-Netz zum entstehenden RNG korrekt berechnet wurde
-  // std::vector<Edge> calculatedSNet_30 = parseSNetBlock("data/Beispiele/EMST_Beispiel_3/O(30)/s-Netz.txt");
-  std::vector<Edge> calculatedSNet_30 = parseSNetBlock("data/Aktuelle_Ergebnisse/s-Netz.txt");
+  // std::vector<Edge> calculatedSNet_30 = parseSNetBlock(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_3/O(30)/s-Netz.txt"});
+  std::vector<Edge> calculatedSNet_30 = parseSNetBlock(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/s-Netz.txt"});
   EXPECT_EQ(expectedSNet_30, calculatedSNet_30);
 
   // Prüfe, ob der Hilfsgraph G zum entstehenden RNG korrekt berechnet wurde
 
   // Prüfe, ob der Hilfsgraph G alle benötigten Kanten enthält
-  // Graph calculatedG_30 = parseGBlock("data/Beispiele/EMST_Beispiel_3/O(30)/Hilfsgraph_G.txt");
-  Graph calculatedG_30 = parseGBlock("data/Aktuelle_Ergebnisse/Hilfsgraph_G.txt");
+  // Graph calculatedG_30 = parseGBlock(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_3/O(30)/Hilfsgraph_G.txt"});
+  Graph calculatedG_30 = parseGBlock(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/Hilfsgraph_G.txt"});
   EXPECT_EQ(expectedG_30, calculatedG_30);
 
   // Prüfe, ob alle Kanten des Hilfsgraphs G den richtigen Nachfolger haben
 
-  // std::vector<std::vector<Edge>> calculatedFaceCyclesOfG_30 = parseFaceCyclesOfG("data/Beispiele/EMST_Beispiel_3/O(30)/face_cycles_G.txt");
-  std::vector<std::vector<Edge>> calculatedFaceCyclesOfG_30 = parseFaceCyclesOfG("data/Aktuelle_Ergebnisse/face_cycles_G.txt");
+  // std::vector<std::vector<Edge>> calculatedFaceCyclesOfG_30 = parseFaceCyclesOfG(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_3/O(30)/face_cycles_G.txt"});
+  std::vector<std::vector<Edge>> calculatedFaceCyclesOfG_30 = parseFaceCyclesOfG(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/face_cycles_G.txt"});
   EXPECT_EQ(expectedFaceCyclesOfG_30, calculatedFaceCyclesOfG_30);
 
 
@@ -1527,31 +1527,31 @@ TEST_F(EMSTTest, Beispiel_3_EMST){
   init(inputPoints, 10);
   
   // Prüfe, ob die Kanten des EMSTs korrekt und in der richtigen Reihenfolge berechnet werden
-  // std::vector<Edge> calculatedEMST_10 = parseEdgeFile("data/Beispiele/EMST_Beispiel_3/O(10)/Euklidischer_Minimaler_Spannbaum.txt");
-  std::vector<Edge> calculatedEMST_10 = parseEdgeFile("data/Aktuelle_Ergebnisse/Euklidischer_Minimaler_Spannbaum.txt");
+  // std::vector<Edge> calculatedEMST_10 = parseEdgeFile(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_3/O(10)/Euklidischer_Minimaler_Spannbaum.txt"});
+  std::vector<Edge> calculatedEMST_10 = parseEdgeFile(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/Euklidischer_Minimaler_Spannbaum.txt"});
   EXPECT_EQ(expectedEMST, calculatedEMST_10);
 
   // Prüfe, ob alle Kanten des RNGs korrekt und in der richtigen Reihenfolge berechnet werden
-  // std::vector<Edge> calculatedRNG_10 = parseEdgeFile("data/Beispiele/EMST_Beispiel_3/O(10)/Relativer_Nachbarschaftsgraph.txt");
-  std::vector<Edge> calculatedRNG_10 = parseEdgeFile("data/Aktuelle_Ergebnisse/Relativer_Nachbarschaftsgraph.txt");
+  // std::vector<Edge> calculatedRNG_10 = parseEdgeFile(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_3/O(10)/Relativer_Nachbarschaftsgraph.txt"});
+  std::vector<Edge> calculatedRNG_10 = parseEdgeFile(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/Relativer_Nachbarschaftsgraph.txt"});
   EXPECT_EQ(expectedRNG, calculatedRNG_10);
 
   // Prüfe, ob das S-Netz zum entstehenden RNG korrekt berechnet wurde
-  // std::vector<Edge> calculatedSNet_10 = parseSNetBlock("data/Beispiele/EMST_Beispiel_3/O(10)/s-Netz.txt");
-  std::vector<Edge> calculatedSNet_10 = parseSNetBlock("data/Aktuelle_Ergebnisse/s-Netz.txt");
+  // std::vector<Edge> calculatedSNet_10 = parseSNetBlock(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_3/O(10)/s-Netz.txt"});
+  std::vector<Edge> calculatedSNet_10 = parseSNetBlock(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/s-Netz.txt"});
   EXPECT_EQ(expectedSNet_10, calculatedSNet_10);
 
   // Prüfe, ob der Hilfsgraph G zum entstehenden RNG korrekt berechnet wurde
 
   // Prüfe, ob der Hilfsgraph G alle benötigten Kanten enthält
-  // Graph calculatedG_10 = parseGBlock("data/Beispiele/EMST_Beispiel_3/O(10)/Hilfsgraph_G.txt");
-  Graph calculatedG_10 = parseGBlock("data/Aktuelle_Ergebnisse/Hilfsgraph_G.txt");
+  // Graph calculatedG_10 = parseGBlock(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_3/O(10)/Hilfsgraph_G.txt"});
+  Graph calculatedG_10 = parseGBlock(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/Hilfsgraph_G.txt"});
   EXPECT_EQ(expectedG_10, calculatedG_10);
 
   // Prüfe, ob alle Kanten des Hilfsgraphs G den richtigen Nachfolger haben
 
-  // std::vector<std::vector<Edge>> calculatedFaceCyclesOfG_10 = parseFaceCyclesOfG("data/Beispiele/EMST_Beispiel_3/O(10)/face_cycles_G.txt");
-  std::vector<std::vector<Edge>> calculatedFaceCyclesOfG_10 = parseFaceCyclesOfG("data/Aktuelle_Ergebnisse/face_cycles_G.txt");
+  // std::vector<std::vector<Edge>> calculatedFaceCyclesOfG_10 = parseFaceCyclesOfG(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_3/O(10)/face_cycles_G.txt"});
+  std::vector<std::vector<Edge>> calculatedFaceCyclesOfG_10 = parseFaceCyclesOfG(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/face_cycles_G.txt"});
   EXPECT_EQ(expectedFaceCyclesOfG_10, calculatedFaceCyclesOfG_10);
 
 
@@ -1563,31 +1563,31 @@ TEST_F(EMSTTest, Beispiel_3_EMST){
   init(inputPoints, 6);
   
   // Prüfe, ob die Kanten des EMSTs korrekt und in der richtigen Reihenfolge berechnet werden
-  // std::vector<Edge> calculatedEMST_6 = parseEdgeFile("data/Beispiele/EMST_Beispiel_3/O(6)/Euklidischer_Minimaler_Spannbaum.txt");
-  std::vector<Edge> calculatedEMST_6 = parseEdgeFile("data/Aktuelle_Ergebnisse/Euklidischer_Minimaler_Spannbaum.txt");
+  // std::vector<Edge> calculatedEMST_6 = parseEdgeFile(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_3/O(6)/Euklidischer_Minimaler_Spannbaum.txt"});
+  std::vector<Edge> calculatedEMST_6 = parseEdgeFile(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/Euklidischer_Minimaler_Spannbaum.txt"});
   EXPECT_EQ(expectedEMST, calculatedEMST_6);
 
   // Prüfe, ob alle Kanten des RNGs korrekt und in der richtigen Reihenfolge berechnet werden
-  // std::vector<Edge> calculatedRNG_6 = parseEdgeFile("data/Beispiele/EMST_Beispiel_3/O(6)/Relativer_Nachbarschaftsgraph.txt");
-  std::vector<Edge> calculatedRNG_6 = parseEdgeFile("data/Aktuelle_Ergebnisse/Relativer_Nachbarschaftsgraph.txt");
+  // std::vector<Edge> calculatedRNG_6 = parseEdgeFile(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_3/O(6)/Relativer_Nachbarschaftsgraph.txt"});
+  std::vector<Edge> calculatedRNG_6 = parseEdgeFile(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/Relativer_Nachbarschaftsgraph.txt"});
   EXPECT_EQ(expectedRNG, calculatedRNG_6);
 
   // Prüfe, ob das S-Netz zum entstehenden RNG korrekt berechnet wurde
-  // std::vector<Edge> calculatedSNet_6 = parseSNetBlock("data/Beispiele/EMST_Beispiel_3/O(6)/s-Netz.txt");
-  std::vector<Edge> calculatedSNet_6 = parseSNetBlock("data/Aktuelle_Ergebnisse/s-Netz.txt");
+  // std::vector<Edge> calculatedSNet_6 = parseSNetBlock(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_3/O(6)/s-Netz.txt"});
+  std::vector<Edge> calculatedSNet_6 = parseSNetBlock(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/s-Netz.txt"});
   EXPECT_EQ(expectedSNet_6, calculatedSNet_6);
 
   // Prüfe, ob der Hilfsgraph G zum entstehenden RNG korrekt berechnet wurde
 
   // Prüfe, ob der Hilfsgraph G alle benötigten Kanten enthält
-  // Graph calculatedG_6 = parseGBlock("data/Beispiele/EMST_Beispiel_3/O(6)/Hilfsgraph_G.txt");
-  Graph calculatedG_6 = parseGBlock("data/Aktuelle_Ergebnisse/Hilfsgraph_G.txt");
+  // Graph calculatedG_6 = parseGBlock(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_3/O(6)/Hilfsgraph_G.txt"});
+  Graph calculatedG_6 = parseGBlock(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/Hilfsgraph_G.txt"});
   EXPECT_EQ(expectedG_6, calculatedG_6);
 
   // Prüfe, ob alle Kanten des Hilfsgraphs G den richtigen Nachfolger haben
 
-  // std::vector<std::vector<Edge>> calculatedFaceCyclesOfG_6 = parseFaceCyclesOfG("data/Beispiele/EMST_Beispiel_3/O(6)/face_cycles_G.txt");
-  std::vector<std::vector<Edge>> calculatedFaceCyclesOfG_6 = parseFaceCyclesOfG("data/Aktuelle_Ergebnisse/face_cycles_G.txt");
+  // std::vector<std::vector<Edge>> calculatedFaceCyclesOfG_6 = parseFaceCyclesOfG(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_3/O(6)/face_cycles_G.txt"});
+  std::vector<std::vector<Edge>> calculatedFaceCyclesOfG_6 = parseFaceCyclesOfG(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/face_cycles_G.txt"});
   EXPECT_EQ(expectedFaceCyclesOfG_6, calculatedFaceCyclesOfG_6);
 
 
@@ -1599,31 +1599,31 @@ TEST_F(EMSTTest, Beispiel_3_EMST){
   init(inputPoints, 1);
   
   // Prüfe, ob die Kanten des EMSTs korrekt und in der richtigen Reihenfolge berechnet werden
-  // std::vector<Edge> calculatedEMST_1 = parseEdgeFile("data/Beispiele/EMST_Beispiel_3/O(1)/Euklidischer_Minimaler_Spannbaum.txt");
-  std::vector<Edge> calculatedEMST_1 = parseEdgeFile("data/Aktuelle_Ergebnisse/Euklidischer_Minimaler_Spannbaum.txt");
+  // std::vector<Edge> calculatedEMST_1 = parseEdgeFile(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_3/O(1)/Euklidischer_Minimaler_Spannbaum.txt"});
+  std::vector<Edge> calculatedEMST_1 = parseEdgeFile(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/Euklidischer_Minimaler_Spannbaum.txt"});
   EXPECT_EQ(expectedEMST, calculatedEMST_1);
 
   // Prüfe, ob alle Kanten des RNGs korrekt und in der richtigen Reihenfolge berechnet werden
-  // std::vector<Edge> calculatedRNG_1 = parseEdgeFile("data/Beispiele/EMST_Beispiel_3/O(1)/Relativer_Nachbarschaftsgraph.txt");
-  std::vector<Edge> calculatedRNG_1 = parseEdgeFile("data/Aktuelle_Ergebnisse/Relativer_Nachbarschaftsgraph.txt");
+  // std::vector<Edge> calculatedRNG_1 = parseEdgeFile(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_3/O(1)/Relativer_Nachbarschaftsgraph.txt"});
+  std::vector<Edge> calculatedRNG_1 = parseEdgeFile(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/Relativer_Nachbarschaftsgraph.txt"});
   EXPECT_EQ(expectedRNG, calculatedRNG_1);
 
   // Prüfe, ob das S-Netz zum entstehenden RNG korrekt berechnet wurde
-  // std::vector<Edge> calculatedSNet_1 = parseSNetBlock("data/Beispiele/EMST_Beispiel_3/O(1)/s-Netz.txt");
-  std::vector<Edge> calculatedSNet_1 = parseSNetBlock("data/Aktuelle_Ergebnisse/s-Netz.txt");
+  // std::vector<Edge> calculatedSNet_1 = parseSNetBlock(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_3/O(1)/s-Netz.txt"});
+  std::vector<Edge> calculatedSNet_1 = parseSNetBlock(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/s-Netz.txt"});
   EXPECT_EQ(expectedSNet_1, calculatedSNet_1);
 
   // Prüfe, ob der Hilfsgraph G zum entstehenden RNG korrekt berechnet wurde
 
   // Prüfe, ob der Hilfsgraph G alle benötigten Punkte und Kanten enthält
-  // Graph calculatedG_1 = parseGBlock("data/Beispiele/EMST_Beispiel_3/O(1)/Hilfsgraph_G.txt");
-  Graph calculatedG_1 = parseGBlock("data/Aktuelle_Ergebnisse/Hilfsgraph_G.txt");
+  // Graph calculatedG_1 = parseGBlock(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_3/O(1)/Hilfsgraph_G.txt"});
+  Graph calculatedG_1 = parseGBlock(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/Hilfsgraph_G.txt"});
   EXPECT_EQ(expectedG_1, calculatedG_1);
 
   // Prüfe, ob alle Kanten des Hilfsgraphs G den richtigen Nachfolger haben
 
-  // std::vector<std::vector<Edge>> calculatedFaceCyclesOfG_1 = parseFaceCyclesOfG("data/Beispiele/EMST_Beispiel_3/O(1)/face_cycles_G.txt");
-  std::vector<std::vector<Edge>> calculatedFaceCyclesOfG_1 = parseFaceCyclesOfG("data/Aktuelle_Ergebnisse/face_cycles_G.txt");
+  // std::vector<std::vector<Edge>> calculatedFaceCyclesOfG_1 = parseFaceCyclesOfG(ROOTPATH + std::string{"data/Beispiele/EMST_Beispiel_3/O(1)/face_cycles_G.txt"});
+  std::vector<std::vector<Edge>> calculatedFaceCyclesOfG_1 = parseFaceCyclesOfG(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/face_cycles_G.txt"});
   EXPECT_EQ(expectedFaceCyclesOfG_1, calculatedFaceCyclesOfG_1);
 
 

@@ -124,7 +124,7 @@ void generatePoints(int number){
 
 
   // Schreibe die zufälligen Punkten in eine Test-Datei, die initial alle Punkte für den RNG-Algorithmus enthält
-  std::string filename("data/Aktuelle_Ergebnisse/zufaellige_Eingabepunkte.txt");
+  std::string filename(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/zufaellige_Eingabepunkte.txt"});
   std::fstream file_out;
 
   file_out.open(filename, std::ios_base::out);

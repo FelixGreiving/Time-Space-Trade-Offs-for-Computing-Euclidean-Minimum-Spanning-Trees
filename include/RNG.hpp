@@ -10,6 +10,7 @@
 #include "EMST.hpp"
 #include "AssEdges.hpp"
 #include "utils.hpp"
+#include "Config.h"
 
   typedef CGAL::Delaunay_triangulation_2<CGAL::Projection_traits_xy_3<K>> Delaunay;
 

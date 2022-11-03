@@ -1,6 +1,7 @@
 #pragma once
 #include <gtest/gtest.h>
 #include "RNG.hpp"
+#include "Config.h"
 
 
 // Test Fixture, um (private) Methoden der Klasse RNG testen zu können

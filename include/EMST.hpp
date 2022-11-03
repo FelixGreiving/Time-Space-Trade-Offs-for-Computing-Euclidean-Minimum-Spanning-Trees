@@ -2,6 +2,7 @@
 #include "Graph.hpp"
 #include <fstream>
 #include "RNG.hpp"
+#include "Config.h"
 
 // Gibt an, ob der Hilfsgraph G, dessen face-cycles und das S-Netz zu allen Durchläufen in die korrespondierenden Dateien geschrieben werden
 #define WRITE_INTO_ALL_FILES 1

@@ -4,6 +4,8 @@ cmake_minimum_required(VERSION 3.14)
 
 find_package(CGAL REQUIRED COMPONENTS Core) 
 
+configure_file(include/Config.h.in ${CMAKE_CURRENT_SOURCE_DIR}/include/Config.h)
+
 set(EXECUTABLE_OUTPUT_PATH "bin")
 
 set(CMAKE_CXX_FLAGS_DEBUG_INIT "-Wall -Wextra --pedantic -g -ggdb")

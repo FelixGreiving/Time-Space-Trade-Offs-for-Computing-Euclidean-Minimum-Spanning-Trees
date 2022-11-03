@@ -4,21 +4,21 @@
   /// @brief Initialisiere und öffne die Dateien zur Speicherung der Delaunay Triangulation, des RNGs, des EMSTs und ggfs. der anderen Hilfsstrukturen
   void EMST::openFiles(){
 
-    std::string filenameDelaunay("data/Aktuelle_Ergebnisse/Delaunay_Triangulation.txt");
+    std::string filenameDelaunay(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/Delaunay_Triangulation.txt"});
     file_out_Delaunay.open(filenameDelaunay, std::ios_base::out);
     if(!file_out_Delaunay.is_open()){
       std::cerr << "Exception: failed to open " << filenameDelaunay << "\n";
       exit(-1);
     }
 
-    std::string filenameRNG("data/Aktuelle_Ergebnisse/Relativer_Nachbarschaftsgraph.txt");
+    std::string filenameRNG(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/Relativer_Nachbarschaftsgraph.txt"});
     file_out_RNG.open(filenameRNG, std::ios_base::out);
     if(!file_out_RNG.is_open()){
       std::cerr << "Exception: failed to open " << filenameRNG << "\n";
       exit(-1);
     }
 
-    std::string filename("data/Aktuelle_Ergebnisse/Euklidischer_Minimaler_Spannbaum.txt");
+    std::string filename(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/Euklidischer_Minimaler_Spannbaum.txt"});
     file_out_EMST.open(filename, std::ios_base::out);
     if(!file_out_EMST.is_open()){
       std::cerr << "Exception: failed to open " << filename << "\n";
@@ -26,21 +26,21 @@
     }
 
     #if WRITE_INTO_ALL_FILES == 1
-    std::string filenameG("data/Aktuelle_Ergebnisse/Hilfsgraph_G.txt");
+    std::string filenameG(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/Hilfsgraph_G.txt"});
     file_out_G.open(filenameG, std::ios_base::out);
     if(!file_out_G.is_open()){
       std::cerr << "Exception: failed to open " << filenameG << "\n";
       exit(-1);
     }
 
-    std::string filenameFaceCyclesG("data/Aktuelle_Ergebnisse/face_cycles_G.txt");
+    std::string filenameFaceCyclesG(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/face_cycles_G.txt"});
     file_out_Face_Cycles_G.open(filenameFaceCyclesG, std::ios_base::out);
     if(!file_out_Face_Cycles_G.is_open()){
       std::cerr << "Exception: failed to open " << filenameFaceCyclesG << "\n";
       exit(-1);
     }
 
-    std::string filenameSNet("data/Aktuelle_Ergebnisse/s-Netz.txt");
+    std::string filenameSNet(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/s-Netz.txt"});
     file_out_SNet.open(filenameSNet, std::ios_base::out);
     if(!file_out_SNet.is_open()){
       std::cerr << "Exception: failed to open " << filenameSNet << "\n";

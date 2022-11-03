@@ -438,7 +438,7 @@
       graph.calculateRNG(*this);
     }
 
-    std::string filenameRNG("data/Aktuelle_Ergebnisse/Supovit_RNG.txt");
+    std::string filenameRNG(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/Supovit_RNG.txt"});
     std::fstream file_out_RNG;
     file_out_RNG.open(filenameRNG, std::ios_base::out);
 

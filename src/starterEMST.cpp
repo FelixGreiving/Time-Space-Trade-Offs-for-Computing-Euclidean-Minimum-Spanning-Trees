@@ -2,7 +2,7 @@
 #include "RNG.hpp"
 #include <fstream>
 #include <CGAL/draw_triangulation_2.h>
-
+#include "Config.h"
 
 
 int main()
@@ -10,7 +10,7 @@ int main()
   // Berechnet den EMST zu Punkte in allgemeiner Lage
 
   generatePoints(30);
-  std::ifstream in("data/Aktuelle_Ergebnisse/zufaellige_Eingabepunkte.txt");
+  std::ifstream in(ROOTPATH + std::string{"data/Aktuelle_Ergebnisse/zufaellige_Eingabepunkte.txt"});
 
   std::istream_iterator<Point> begin(in);
   std::istream_iterator<Point> end;
@@ -24,7 +24,7 @@ int main()
   // Berechnet den RNG zu Punkten in allgemeiner LAge
   
   // generatePoints(30);
-  // std::ifstream in("data/zufaellige_Eingabepunkte.txt");
+  // std::ifstream in(ROOTPATH + std::string{"data/zufaellige_Eingabepunkte.txt"});
 
   // std::istream_iterator<Point> begin(in);
   // std::istream_iterator<Point> end;

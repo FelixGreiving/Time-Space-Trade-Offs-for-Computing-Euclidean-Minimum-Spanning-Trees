@@ -2,7 +2,7 @@
 
 
 TEST_F(RNGTest, calcRNG_allgemein) {
-  std::ifstream in("data/Beispiele/RNG_Beispiel_1/RNG_Beispiel_1.txt");
+  std::ifstream in(ROOTPATH + std::string{"data/Beispiele/RNG_Beispiel_1/RNG_Beispiel_1.txt"});
   std::istream_iterator<Point> begin(in);
   std::istream_iterator<Point> end;
   std::set<Point> inputPoints(begin, end);
@@ -195,7 +195,7 @@ TEST_F(RNGTest, calcRNG_allgemein) {
 
 
 TEST_F(RNGTest, test_parser) {
-  std::ifstream in("data/Beispiele/RNG_Beispiel_1/RNG_Beispiel_1.txt");
+  std::ifstream in(ROOTPATH + std::string{"data/Beispiele/RNG_Beispiel_1/RNG_Beispiel_1.txt"});
   std::istream_iterator<Point> begin(in);
   std::istream_iterator<Point> end;
   std::set<Point> inputPoints(begin, end);
@@ -286,7 +286,7 @@ TEST_F(RNGTest, test_parser) {
 
 
 TEST_F(RNGTest, calcRNG_same_angle_case_1) {
-  std::ifstream in("data/Beispiele/RNG_Beispiel_2/RNG_gleiche_Winkel.txt");
+  std::ifstream in(ROOTPATH + std::string{"data/Beispiele/RNG_Beispiel_2/RNG_gleiche_Winkel.txt"});
   std::istream_iterator<Point> begin(in);
   std::istream_iterator<Point> end;
   std::set<Point> inputPoints(begin, end);
@@ -408,7 +408,7 @@ TEST_F(RNGTest, calcRNG_same_angle_case_1) {
 
 TEST_F(RNGTest, calcRNG_same_angle_case_2) {
 
-  std::ifstream in("data/Beispiele/RNG_Beispiel_3/RNG_gleiche_Winkel.txt");
+  std::ifstream in(ROOTPATH + std::string{"data/Beispiele/RNG_Beispiel_3/RNG_gleiche_Winkel.txt"});
   std::istream_iterator<Point> begin(in);
   std::istream_iterator<Point> end;
   std::set<Point> inputPoints(begin, end);
